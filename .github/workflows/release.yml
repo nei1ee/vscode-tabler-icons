@@ -39,6 +39,7 @@ jobs:
         env:
           VSCE_TOKEN: ${{secrets.VSCE_TOKEN}}
 
-      # - run: cd build && npx ovsx publish -p ${{secrets.OVSX_TOKEN}}
-      #   env:
-      #     OVSX_TOKEN: ${{secrets.OVSX_TOKEN}}
+      - name: Open VSX Extension
+        run: cd build && npx ovsx publish -p ${{secrets.OVSX_TOKEN}}
+        env:
+          OVSX_TOKEN: ${{secrets.OVSX_TOKEN}}
