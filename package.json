@@ -8,7 +8,7 @@
   "scripts": {
     "build": "esno scripts/build.ts",
     "lint": "eslint .",
-    "release": "npx bumpp --tag --commit --push"
+    "release": "bumpp --tag --commit --push"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
@@ -16,6 +16,8 @@
     "@tabler/icons": "^2.15.0",
     "@tabler/icons-webfont": "^2.15.0",
     "@types/fs-extra": "^9.0.13",
+    "@vscode/vsce": "^2.18.0",
+    "bumpp": "^9.1.0",
     "eslint": "^8.38.0",
     "esno": "^0.16.3",
     "fs-extra": "^10.1.0",

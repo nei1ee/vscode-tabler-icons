@@ -3,28 +3,42 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v2
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+
+      - name: Set node
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          registry-url: https://registry.npmjs.org/
-      - run: npm i -g pnpm @antfu/ni
-      - run: nci
-      - run: npx conventional-github-releaser -p angular
+          node-version: 16.x
+          cache: pnpm
+          registry-url: "https://registry.npmjs.org"
+
+      - run: npx changelogithub
+        continue-on-error: true
         env:
-          CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - run: yarn run build
-      - run: cd build && npx vsce publish -p ${{secrets.VSCE_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Install Dependencies
+        run: pnpm i
+
+      - name: PNPM build
+        run: pnpm run build
+
+      - name: VS Code Extension
+        run: cd build && npx vsce publish -p ${{secrets.VSCE_TOKEN}}
         env:
           VSCE_TOKEN: ${{secrets.VSCE_TOKEN}}
+
       # - run: cd build && npx ovsx publish -p ${{secrets.OVSX_TOKEN}}
       #   env:
       #     OVSX_TOKEN: ${{secrets.OVSX_TOKEN}}
