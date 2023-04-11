@@ -7,8 +7,9 @@
   },
   "scripts": {
     "build": "esno scripts/build.ts",
+    "release": "bumpp --tag --commit --push",
     "lint": "eslint .",
-    "release": "bumpp --tag --commit --push"
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
