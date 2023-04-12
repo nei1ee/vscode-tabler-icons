@@ -135,7 +135,7 @@
 # 'codicon:expand-all': 'tabler:expand-all'
 
 # 'codicon:export': 'tabler:export'
-'codicon:extensions': 'tabler:layout-dashboard'
+'codicon:extensions': 'tabler:puzzle'
 'codicon:eye': 'tabler:eye'
 'codicon:eye-closed': 'tabler:eye-off'
 # 'codicon:feedback': 'tabler:feedback'
@@ -296,7 +296,7 @@
 'codicon:refresh': 'tabler:refresh'
 'codicon:regex': 'tabler:regex'
 # 'codicon:remote': 'tabler:remote'
-# 'codicon:remote-explorer': 'tabler:remote-explorer'
+'codicon:remote-explorer': 'tabler:device-desktop-code'
 # 'codicon:remove': 'tabler:remove'
 # 'codicon:replace': 'tabler:replace'
 # 'codicon:replace-all': 'tabler:replace-all'
