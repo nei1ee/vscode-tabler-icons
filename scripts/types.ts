@@ -427,8 +427,12 @@ export type IDS =
 
 export type Codicon = `codicon:${IDS}`
 
+export type ExtraIDS = 'sqltools'
+
+export type Extra = `${string}:${ExtraIDS}`
+
 export interface IconSet {
   name: string
   display: string
-  icons: Partial<Record<Codicon, string>>
+  icons: Partial<Record<Codicon & Extra, string>>
 }
