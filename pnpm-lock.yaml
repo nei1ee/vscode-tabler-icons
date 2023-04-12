@@ -34,6 +34,9 @@ devDependencies:
   typescript:
     specifier: ^4.9.5
     version: 4.9.5
+  yaml:
+    specifier: ^2.2.1
+    version: 2.2.1
 
 packages:
 
@@ -3207,11 +3210,11 @@ packages:
     dependencies:
       eslint-visitor-keys: 3.3.0
       lodash: 4.17.21
-      yaml: 2.1.0
+      yaml: 2.2.1
     dev: true
 
-  /yaml@2.1.0:
-    resolution: {integrity: sha512-OuAINfTsoJrY5H7CBWnKZhX6nZciXBydrMtTHr1dC4nP40X5jyTIVlogZHxSlVZM8zSgXRfgZGsaHF4+pV+JRw==}
+  /yaml@2.2.1:
+    resolution: {integrity: sha512-e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==}
     engines: {node: '>= 14'}
     dev: true
 

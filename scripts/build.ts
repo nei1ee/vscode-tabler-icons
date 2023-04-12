@@ -1,8 +1,16 @@
 import { resolve } from 'path'
 import fs from 'fs-extra'
+import { parse as YAMLParser } from 'yaml'
 import pkg from '../package.json'
+import type { Codicon, IconSet } from './types'
 
-import { set } from './set'
+const icons = YAMLParser(fs.readFileSync(resolve(__dirname, 'icons.yaml'), 'utf-8')) as Partial<Record<Codicon, string>>
+
+const set: IconSet = {
+  name: 'tabler-icons',
+  display: 'Tabler Icons',
+  icons,
+}
 
 async function build() {
   const tags = fs.readJSONSync(resolve(__dirname, '../node_modules/@tabler/icons/tags.json'), 'utf-8')
@@ -49,8 +57,7 @@ async function build() {
         },
       ],
 
-      iconDefinitions: Object.fromEntries(
-        icons.map(([k, name], _) => [k, { fontCharacter: `\\${tags[name].unicode}` }])),
+      iconDefinitions: Object.fromEntries(icons.map(([k, name], _) => [k, { fontCharacter: `\\${tags[name].unicode}` }])),
     },
     { spaces: 2 },
   )
