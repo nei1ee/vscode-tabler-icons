@@ -1,54 +1,57 @@
 import { resolve } from 'path'
 import fs from 'fs-extra'
-import { parse as YAMLParser } from 'yaml'
 import pkg from '../package.json'
-import type { Codicon, IconSet } from './types'
+import { set } from './set'
+import { DISPLAY_NAME, NAME } from './constants'
 
-const icons = YAMLParser(fs.readFileSync(resolve(__dirname, 'icons.yaml'), 'utf-8')) as Partial<Record<Codicon, string>>
-
-const set: IconSet = {
-  name: 'tabler-icons',
-  display: 'Tabler Icons',
-  icons,
-}
-
-async function build() {
+async function theme() {
   const tags = fs.readJSONSync(resolve(__dirname, '../node_modules/@tabler/icons/tags.json'), 'utf-8')
-
-  const name = set.name
-  const displayName = set.display
 
   fs.removeSync('temp')
   fs.ensureDirSync('temp/dist')
   fs.ensureDirSync('temp/icons')
 
-  fs.ensureDirSync('build')
-  fs.emptyDirSync('build')
+  fs.ensureDirSync('theme')
+  fs.emptyDirSync('theme')
 
   const icons = Object.entries(set.icons).map(([k, v]) => {
     v = v || k
     k = k.replace('codicon:', '')
     const [, name] = v.split(':')
-
     const iconPath = resolve(__dirname, `../node_modules/@tabler/icons/icons/${name}.svg`)
-    fs.copyFileSync(iconPath, `temp/icons/${k}.svg`)
+    if (fs.existsSync(iconPath))
+      fs.copyFileSync(iconPath, `temp/icons/${k}.svg`)
+
     return [k, name]
   })
+
   const webFontPath = resolve(__dirname, '../node_modules/@tabler/icons-webfont/fonts/')
 
   fs.copySync(webFontPath, 'temp/dist/')
 
-  fs.copyFileSync(`./temp/dist/${name}.woff`, `build/${name}.woff`)
+  fs.copyFileSync(`./temp/dist/${NAME}.woff`, `theme/${NAME}.woff`)
+
+  const iconDefinitions = {}
+
+  for (const [k, name] of icons) {
+    if (tags[name]?.unicode) {
+      Object.assign(iconDefinitions, {
+        [k]: {
+          fontCharacter: `\\${tags[name].unicode}`,
+        },
+      })
+    }
+  }
 
   fs.writeJSONSync(
-    `build/${name}.json`,
+    `theme/${NAME}.json`,
     {
       fonts: [
         {
-          id: name,
+          id: NAME,
           src: [
             {
-              path: `./${name}.woff`,
+              path: `./${NAME}.woff`,
               format: 'woff',
             },
           ],
@@ -56,20 +59,19 @@ async function build() {
           style: 'normal',
         },
       ],
-
-      iconDefinitions: Object.fromEntries(icons.map(([k, name], _) => [k, { fontCharacter: `\\${tags[name].unicode}` }])),
+      iconDefinitions,
     },
     { spaces: 2 },
   )
 
   fs.writeJSONSync(
-    'build/package.json',
+    'theme/package.json',
     {
-      name,
       publisher: 'zguolee',
+      name: NAME,
+      displayName: `${DISPLAY_NAME} Product Icons`,
       version: pkg.version,
-      displayName: `${displayName} Product Icons`,
-      description: `${displayName} Product Icons for VS Code`,
+      description: `${DISPLAY_NAME} Product Icons for VS Code`,
       icon: 'icon.png',
       categories: ['Themes'],
       engines: {
@@ -81,9 +83,9 @@ async function build() {
       contributes: {
         productIconThemes: [
           {
-            id: name,
-            label: `${displayName} Icons`,
-            path: `./${name}.json`,
+            id: DISPLAY_NAME,
+            label: `${DISPLAY_NAME} Icons`,
+            path: `./${NAME}.json`,
           },
         ],
       },
@@ -101,9 +103,9 @@ async function build() {
     { spaces: 2 },
   )
 
-  fs.copySync('README.md', 'build/README.md')
-  fs.copySync('icon.png', 'build/icon.png')
-  fs.copySync('LICENSE', 'build/LICENSE')
+  fs.copySync('README.md', 'theme/README.md')
+  fs.copySync('icon.png', 'theme/icon.png')
+  fs.copySync('LICENSE', 'theme/LICENSE')
 }
 
-build()
+theme()
