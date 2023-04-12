@@ -501,7 +501,8 @@ export const set: IconSet = {
     'codicon:clear-all': 'tabler:clear-all',
     'codicon:clippy': 'tabler:clippy',
     'codicon:close-all': 'tabler:close-all',
-    'codicon:close': 'tabler:x',
+    // error icon when edit file
+    // 'codicon:close': 'tabler:x',
     'codicon:cloud': 'tabler:cloud',
     'codicon:cloud-download': 'tabler:cloud-download',
     'codicon:cloud-upload': 'tabler:cloud-upload',
