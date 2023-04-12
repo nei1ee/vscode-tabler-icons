@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "esno scripts/build.ts",
-    "release": "bumpp --tag --commit --push",
+    "release": "bumpp package.json",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
