@@ -36,11 +36,11 @@ jobs:
         run: pnpm run build
 
       - name: VS Code Extension
-        run: cd build && npx vsce publish -p ${{secrets.VSCE_TOKEN}}
+        run: cd theme && npx vsce publish -p ${{secrets.VSCE_TOKEN}}
         env:
           VSCE_TOKEN: ${{secrets.VSCE_TOKEN}}
 
       - name: Open VSX Extension
-        run: cd build && npx ovsx publish -p ${{secrets.OVSX_TOKEN}}
+        run: cd theme && npx ovsx publish -p ${{secrets.OVSX_TOKEN}}
         env:
           OVSX_TOKEN: ${{secrets.OVSX_TOKEN}}
