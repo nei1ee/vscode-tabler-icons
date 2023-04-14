@@ -25,6 +25,18 @@
     "arrow-both": {
       "fontCharacter": "\\eb59"
     },
+    "arrow-circle-down": {
+      "fontCharacter": "\\f6f9"
+    },
+    "arrow-circle-left": {
+      "fontCharacter": "\\f6fb"
+    },
+    "arrow-circle-right": {
+      "fontCharacter": "\\f6fd"
+    },
+    "arrow-circle-up": {
+      "fontCharacter": "\\f703"
+    },
     "arrow-down": {
       "fontCharacter": "\\ea16"
     },
@@ -54,6 +66,9 @@
     },
     "beaker": {
       "fontCharacter": "\\ebd2"
+    },
+    "azure": {
+      "fontCharacter": "\\fa4d"
     },
     "beaker-stop": {
       "fontCharacter": "\\f130"
@@ -153,6 +168,9 @@
     },
     "comment": {
       "fontCharacter": "\\eaef"
+    },
+    "compare-changes": {
+      "fontCharacter": "\\ebe7"
     },
     "comment-discussion": {
       "fontCharacter": "\\eb6c"
@@ -318,6 +336,9 @@
     },
     "key": {
       "fontCharacter": "\\eac7"
+    },
+    "law": {
+      "fontCharacter": "\\ebc2"
     },
     "layout": {
       "fontCharacter": "\\eadb"
@@ -565,8 +586,23 @@
     "watch": {
       "fontCharacter": "\\ebf9"
     },
+    "whole-word": {
+      "fontCharacter": "\\ec0c"
+    },
     "window": {
       "fontCharacter": "\\ef06"
+    },
+    "word-wrap": {
+      "fontCharacter": "\\ebdd"
+    },
+    "workspace-trusted": {
+      "fontCharacter": "\\eb22"
+    },
+    "workspace-unknown": {
+      "fontCharacter": "\\f9cc"
+    },
+    "workspace-untrusted": {
+      "fontCharacter": "\\eb23"
     },
     "zoom-in": {
       "fontCharacter": "\\eb56"

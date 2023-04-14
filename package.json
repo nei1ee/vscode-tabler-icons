@@ -25,10 +25,10 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
     "@antfu/ni": "^0.18.8",
-    "@tabler/icons": "^2.15.0",
-    "@tabler/icons-webfont": "^2.15.0",
+    "@tabler/icons": "^2.16.0",
+    "@tabler/icons-webfont": "^2.16.0",
     "@types/fs-extra": "^9.0.13",
-    "@vscode/vsce": "^2.18.0",
+    "@vscode/vsce": "^2.19.0",
     "bumpp": "^9.1.0",
     "eslint": "^8.38.0",
     "esno": "^0.16.3",

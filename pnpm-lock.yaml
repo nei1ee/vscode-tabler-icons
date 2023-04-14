@@ -8,17 +8,17 @@ devDependencies:
     specifier: ^0.18.8
     version: 0.18.8
   '@tabler/icons':
-    specifier: ^2.15.0
-    version: 2.15.0
+    specifier: ^2.16.0
+    version: 2.16.0
   '@tabler/icons-webfont':
-    specifier: ^2.15.0
-    version: 2.15.0
+    specifier: ^2.16.0
+    version: 2.16.0
   '@types/fs-extra':
     specifier: ^9.0.13
     version: 9.0.13
   '@vscode/vsce':
-    specifier: ^2.18.0
-    version: 2.18.0
+    specifier: ^2.19.0
+    version: 2.19.0
   bumpp:
     specifier: ^9.1.0
     version: 9.1.0
@@ -260,14 +260,14 @@ packages:
       fastq: 1.10.1
     dev: true
 
-  /@tabler/icons-webfont@2.15.0:
-    resolution: {integrity: sha512-ih/XfSmm43PQjlvleAD3X9Vl+dMocXSSgxLwvXjbB6fI6T/5zm0RfcqtuuigtwXV2lJLhFtJL67kvfXJhtbbhg==}
+  /@tabler/icons-webfont@2.16.0:
+    resolution: {integrity: sha512-qM1sfWVpsxOmFZjeA031sMyyNNcx6ieDyOwNOWry9ZIamJQwbHDq6t0H/yBJkq49yOoB1BI/Q3mnoX5dV0uYrw==}
     dependencies:
-      '@tabler/icons': 2.15.0
+      '@tabler/icons': 2.16.0
     dev: true
 
-  /@tabler/icons@2.15.0:
-    resolution: {integrity: sha512-6fwWrsLOqmeoDPii4O1/tG1lsaNoPigUEx8UrOgTLJ81HazbAy5rfypp7FN9/PGsal4VDU+hevOkaGkE6algTQ==}
+  /@tabler/icons@2.16.0:
+    resolution: {integrity: sha512-1kaPH5APIWGtXe0W0eQ9g4MdfaQJ2gh95TAa94lNAqRR0JeC3fkD0yXGCcUiNK4GnGDv3UtPSCd3dbdKTe1b2A==}
     dev: true
 
   /@types/fs-extra@9.0.13:
@@ -433,8 +433,8 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vscode/vsce@2.18.0:
-    resolution: {integrity: sha512-tUA3XoKx5xjoi3EDcngk0VUYMhvfXLhS4s7CntpLPh1qtLYtgSCexTIMUHkCy6MqyozRW98bdW3a2yHPEADRnQ==}
+  /@vscode/vsce@2.19.0:
+    resolution: {integrity: sha512-dAlILxC5ggOutcvJY24jxz913wimGiUrHaPkk16Gm9/PGFbz1YezWtrXsTKUtJws4fIlpX2UIlVlVESWq8lkfQ==}
     engines: {node: '>= 14'}
     hasBin: true
     dependencies:
@@ -455,7 +455,7 @@ packages:
       tmp: 0.2.1
       typed-rest-client: 1.8.9
       url-join: 4.0.1
-      xml2js: 0.4.23
+      xml2js: 0.5.0
       yauzl: 2.10.0
       yazl: 2.5.1
     optionalDependencies:
@@ -3571,6 +3571,14 @@ packages:
 
   /xml2js@0.4.23:
     resolution: {integrity: sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==}
+    engines: {node: '>=4.0.0'}
+    dependencies:
+      sax: 1.2.4
+      xmlbuilder: 11.0.1
+    dev: true
+
+  /xml2js@0.5.0:
+    resolution: {integrity: sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==}
     engines: {node: '>=4.0.0'}
     dependencies:
       sax: 1.2.4
