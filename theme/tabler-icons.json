@@ -91,6 +91,9 @@
     "bookmark": {
       "fontCharacter": "\\ea3a"
     },
+    "bracket": {
+      "fontCharacter": "\\ebcc"
+    },
     "briefcase": {
       "fontCharacter": "\\ea46"
     },
@@ -246,6 +249,9 @@
     },
     "filter": {
       "fontCharacter": "\\eaa5"
+    },
+    "find-selection": {
+      "fontCharacter": "\\ea08"
     },
     "flame": {
       "fontCharacter": "\\ec2c"
@@ -421,6 +427,9 @@
     "package": {
       "fontCharacter": "\\eaff"
     },
+    "panel-close": {
+      "fontCharacter": "\\eb55"
+    },
     "pass": {
       "fontCharacter": "\\ea67"
     },
@@ -441,6 +450,9 @@
     },
     "plug": {
       "fontCharacter": "\\ebd9"
+    },
+    "plus": {
+      "fontCharacter": "\\eb0b"
     },
     "pulse": {
       "fontCharacter": "\\ed23"
@@ -588,6 +600,9 @@
     },
     "whole-word": {
       "fontCharacter": "\\ec0c"
+    },
+    "widget-close": {
+      "fontCharacter": "\\eb55"
     },
     "window": {
       "fontCharacter": "\\ef06"

@@ -31,6 +31,7 @@ export type IDS =
   | 'bold'
   | 'book'
   | 'bookmark'
+  | 'bracket'
   | 'bracket-dot'
   | 'bracket-error'
   | 'briefcase'
@@ -152,6 +153,7 @@ export type IDS =
   | 'files'
   | 'filter-filled'
   | 'filter'
+  | 'find-selection'
   | 'flame'
   | 'fold-down'
   | 'fold-up'
@@ -269,6 +271,7 @@ export type IDS =
   | 'output'
   | 'package'
   | 'paintcan'
+  | 'panel-close'
   | 'pass-filled'
   | 'pass'
   | 'person-add'
@@ -280,6 +283,7 @@ export type IDS =
   | 'play-circle'
   | 'play'
   | 'plug'
+  | 'plus'
   | 'preserve-case'
   | 'preview'
   | 'primitive-square'
@@ -420,6 +424,7 @@ export type IDS =
   | 'watch'
   | 'whitespace'
   | 'whole-word'
+  | 'widget-close'
   | 'window'
   | 'word-wrap'
   | 'workspace-trusted'
@@ -470,6 +475,7 @@ export const set: IconSet = {
     'codicon:bold': 'tabler:bold',
     'codicon:book': 'tabler:book',
     'codicon:bookmark': 'tabler:bookmark',
+    'codicon:bracket': 'tabler:braces',
     // 'codicon:bracket-dot': 'tabler:bracket-dot',
     // 'codicon:bracket-error': 'tabler:bracket-error',
     'codicon:briefcase': 'tabler:briefcase',
@@ -592,6 +598,7 @@ export const set: IconSet = {
     'codicon:files': 'tabler:files',
     'codicon:filter': 'tabler:filter',
     'codicon:filter-filled': 'tabler:filter-filled',
+    'codicon:find-selection': 'tabler:align-justified',
     'codicon:flame': 'tabler:flame',
     'codicon:fold': 'tabler:fold',
     'codicon:fold-down': 'tabler:fold-down',
@@ -709,6 +716,7 @@ export const set: IconSet = {
     'codicon:output': 'tabler:output',
     'codicon:package': 'tabler:package',
     'codicon:paintcan': 'tabler:paintcan',
+    'codicon:panel-close': 'tabler:x',
     'codicon:pass': 'tabler:circle-check',
     'codicon:pass-filled': 'tabler:circle-check-filled',
     'codicon:person': 'tabler:man',
@@ -720,6 +728,7 @@ export const set: IconSet = {
     'codicon:play': 'tabler:player-play',
     'codicon:play-circle': 'tabler:play-circle',
     'codicon:plug': 'tabler:plug',
+    'codicon:plus': 'tabler:plus',
     'codicon:preserve-case': 'tabler:preserve-case',
     'codicon:preview': 'tabler:preview',
     'codicon:primitive-square': 'tabler:primitive-square',
@@ -860,6 +869,7 @@ export const set: IconSet = {
     'codicon:watch': 'tabler:device-watch',
     'codicon:whitespace': 'tabler:whitespace',
     'codicon:whole-word': 'tabler:space',
+    'codicon:widget-close': 'tabler:x',
     'codicon:window': 'tabler:window',
     'codicon:word-wrap': 'tabler:text-wrap',
     'codicon:workspace-trusted': 'tabler:shield-check',
