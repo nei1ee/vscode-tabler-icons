@@ -223,6 +223,12 @@
     "ellipsis": {
       "fontCharacter": "\\ea95"
     },
+    "error": {
+      "fontCharacter": "\\ea6a"
+    },
+    "error-small": {
+      "fontCharacter": "\\ea6a"
+    },
     "extensions": {
       "fontCharacter": "\\eb10"
     },
