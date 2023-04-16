@@ -396,6 +396,7 @@ export type IDS =
   | 'thumbsdown'
   | 'thumbsup'
   | 'tools'
+  | 'toolbar-more'
   | 'trash'
   | 'triangle-down'
   | 'triangle-left'
@@ -676,8 +677,8 @@ export const set: IconSet = {
     'codicon:lightbulb-autofix': 'tabler:lightbulb-autofix',
     'codicon:link': 'tabler:link',
     'codicon:link-external': 'tabler:external-link',
-    'codicon:list-filter': 'tabler:list',
-    'codicon:list-flat': 'tabler:list-search',
+    'codicon:list-filter': 'tabler:list-search',
+    'codicon:list-flat': 'tabler:list',
     'codicon:list-ordered': 'tabler:list-numbers',
     'codicon:list-selection': 'tabler:list-selection',
     'codicon:list-tree': 'tabler:list-tree',
@@ -695,7 +696,7 @@ export const set: IconSet = {
     'codicon:markdown': 'tabler:markdown',
     'codicon:megaphone': 'tabler:megaphone',
     'codicon:mention': 'tabler:at',
-    'codicon:menu': 'tabler:menu',
+    'codicon:menu': 'tabler:menu-2',
     'codicon:merge': 'tabler:arrow-merge',
     'codicon:milestone': 'tabler:milestone',
     'codicon:mirror': 'tabler:mirror',
@@ -841,6 +842,7 @@ export const set: IconSet = {
     'codicon:thumbsdown': 'tabler:thumbsdown',
     'codicon:thumbsup': 'tabler:thumbsup',
     'codicon:tools': 'tabler:tools',
+    'codicon:toolbar-more': 'tabler:dots',
     'codicon:trash': 'tabler:trash',
     'codicon:triangle-down': 'tabler:caret-down',
     'codicon:triangle-left': 'tabler:caret-left',
