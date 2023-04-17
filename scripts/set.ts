@@ -641,7 +641,7 @@ export const set: IconSet = {
     'codicon:hubot': 'tabler:robot',
     'codicon:inbox': 'tabler:inbox',
     'codicon:indent': 'tabler:indent',
-    'codicon:info': 'tabler:alert-circle',
+    'codicon:info': 'tabler:info-circle',
     'codicon:insert': 'tabler:insert',
     'codicon:inspect': 'tabler:inspect',
     'codicon:issue-draft': 'tabler:issue-draft',

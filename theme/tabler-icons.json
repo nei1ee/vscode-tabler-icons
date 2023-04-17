@@ -368,10 +368,10 @@
       "fontCharacter": "\\ea99"
     },
     "list-filter": {
-      "fontCharacter": "\\eb6b"
+      "fontCharacter": "\\eea9"
     },
     "list-flat": {
-      "fontCharacter": "\\eea9"
+      "fontCharacter": "\\eb6b"
     },
     "list-ordered": {
       "fontCharacter": "\\ef11"
@@ -404,7 +404,7 @@
       "fontCharacter": "\\ea2b"
     },
     "menu": {
-      "fontCharacter": "\\eaeb"
+      "fontCharacter": "\\ec42"
     },
     "merge": {
       "fontCharacter": "\\f04e"
@@ -567,6 +567,9 @@
     },
     "tools": {
       "fontCharacter": "\\ebca"
+    },
+    "toolbar-more": {
+      "fontCharacter": "\\ea95"
     },
     "trash": {
       "fontCharacter": "\\eb41"
