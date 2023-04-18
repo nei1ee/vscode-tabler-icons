@@ -310,6 +310,9 @@
     "globe": {
       "fontCharacter": "\\eab9"
     },
+    "go-to-file": {
+      "fontCharacter": "\\f034"
+    },
     "graph": {
       "fontCharacter": "\\f288"
     },
@@ -496,6 +499,9 @@
     "rss": {
       "fontCharacter": "\\eb19"
     },
+    "save": {
+      "fontCharacter": "\\eb62"
+    },
     "search": {
       "fontCharacter": "\\eb1c"
     },
@@ -573,6 +579,9 @@
     },
     "trash": {
       "fontCharacter": "\\eb41"
+    },
+    "tree-item-expanded": {
+      "fontCharacter": "\\ea5f"
     },
     "triangle-down": {
       "fontCharacter": "\\eb5d"

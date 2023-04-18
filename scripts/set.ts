@@ -398,6 +398,7 @@ export type IDS =
   | 'tools'
   | 'toolbar-more'
   | 'trash'
+  | 'tree-item-expanded'
   | 'triangle-down'
   | 'triangle-left'
   | 'triangle-right'
@@ -625,7 +626,7 @@ export const set: IconSet = {
     'codicon:github-alt': 'tabler:brand-github',
     'codicon:github-inverted': 'tabler:github-inverted',
     'codicon:globe': 'tabler:globe',
-    'codicon:go-to-file': 'tabler:go-to-file',
+    'codicon:go-to-file': 'tabler:file-arrow-right',
     'codicon:grabber': 'tabler:grabber',
     'codicon:graph': 'tabler:graph',
     'codicon:graph-left': 'tabler:graph-left',
@@ -769,7 +770,7 @@ export const set: IconSet = {
     'codicon:run-all': 'tabler:run-all',
     'codicon:run-below': 'tabler:run-below',
     'codicon:run-errors': 'tabler:run-errors',
-    'codicon:save': 'tabler:save',
+    'codicon:save': 'tabler:device-floppy',
     'codicon:save-all': 'tabler:save-all',
     'codicon:save-as': 'tabler:save-as',
     'codicon:screen-full': 'tabler:screen-full',
@@ -844,6 +845,7 @@ export const set: IconSet = {
     'codicon:tools': 'tabler:tools',
     'codicon:toolbar-more': 'tabler:dots',
     'codicon:trash': 'tabler:trash',
+    'codicon:tree-item-expanded': 'tabler:chevron-down',
     'codicon:triangle-down': 'tabler:caret-down',
     'codicon:triangle-left': 'tabler:caret-left',
     'codicon:triangle-right': 'tabler:caret-right',
