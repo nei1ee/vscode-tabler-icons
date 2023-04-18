@@ -463,6 +463,9 @@
     "plus": {
       "fontCharacter": "\\eb0b"
     },
+    "preserve-case": {
+      "fontCharacter": "\\eea4"
+    },
     "pulse": {
       "fontCharacter": "\\ed23"
     },

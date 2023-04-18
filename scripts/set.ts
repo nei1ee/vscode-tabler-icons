@@ -731,7 +731,7 @@ export const set: IconSet = {
     'codicon:play-circle': 'tabler:play-circle',
     'codicon:plug': 'tabler:plug',
     'codicon:plus': 'tabler:plus',
-    'codicon:preserve-case': 'tabler:preserve-case',
+    'codicon:preserve-case': 'tabler:letter-case-upper',
     'codicon:preview': 'tabler:preview',
     'codicon:primitive-square': 'tabler:primitive-square',
     'codicon:project': 'tabler:project',
