@@ -142,6 +142,9 @@
     "chevron-up": {
       "fontCharacter": "\\ea62"
     },
+    "clock": {
+      "fontCharacter": "\\ea70"
+    },
     "circle-filled": {
       "fontCharacter": "\\f698"
     },
@@ -306,6 +309,9 @@
     },
     "github-alt": {
       "fontCharacter": "\\ec1c"
+    },
+    "gitlens-gitlens": {
+      "fontCharacter": "\\ef6f"
     },
     "globe": {
       "fontCharacter": "\\eab9"
@@ -569,7 +575,7 @@
       "fontCharacter": "\\f07d"
     },
     "terminal": {
-      "fontCharacter": "\\ebdc"
+      "fontCharacter": "\\ebef"
     },
     "text-size": {
       "fontCharacter": "\\f2b1"

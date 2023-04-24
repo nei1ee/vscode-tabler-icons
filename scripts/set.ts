@@ -53,6 +53,7 @@ export type IDS =
   | 'chrome-maximize'
   | 'chrome-minimize'
   | 'chrome-restore'
+  | 'clock'
   | 'circle-filled'
   | 'circle-large-filled'
   | 'circle-large'
@@ -178,6 +179,7 @@ export type IDS =
   | 'github-alt'
   | 'github-inverted'
   | 'github'
+  | 'gitlens-gitlens'
   | 'globe'
   | 'go-to-file'
   | 'grabber'
@@ -502,6 +504,7 @@ export const set: IconSet = {
     // 'codicon:chrome-maximize': 'tabler:chrome-maximize',
     // 'codicon:chrome-minimize': 'tabler:chrome-minimize',
     // 'codicon:chrome-restore': 'tabler:chrome-restore',
+    'codicon:clock': 'tabler:clock',
     'codicon:circle-filled': 'tabler:point-filled',
     'codicon:circle-large': 'tabler:circle',
     'codicon:circle-large-filled': 'tabler:circle-filled',
@@ -625,6 +628,7 @@ export const set: IconSet = {
     'codicon:github-action': 'tabler:github-action',
     'codicon:github-alt': 'tabler:brand-github',
     'codicon:github-inverted': 'tabler:github-inverted',
+    'codicon:gitlens-gitlens': 'tabler:brand-git',
     'codicon:globe': 'tabler:globe',
     'codicon:go-to-file': 'tabler:file-arrow-right',
     'codicon:grabber': 'tabler:grabber',
@@ -830,7 +834,7 @@ export const set: IconSet = {
     'codicon:target': 'tabler:target',
     'codicon:tasklist': 'tabler:tasklist',
     'codicon:telescope': 'tabler:telescope',
-    'codicon:terminal': 'tabler:terminal',
+    'codicon:terminal': 'tabler:terminal-2',
     'codicon:terminal-bash': 'tabler:terminal-bash',
     'codicon:terminal-cmd': 'tabler:terminal-cmd',
     'codicon:terminal-debian': 'tabler:terminal-debian',
