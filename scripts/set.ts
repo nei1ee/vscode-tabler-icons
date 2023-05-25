@@ -256,6 +256,7 @@ export type IDS =
   | 'merge'
   | 'milestone'
   | 'mirror'
+  | 'more'
   | 'mortar-board'
   | 'move'
   | 'multiple-windows'
@@ -705,6 +706,7 @@ export const set: IconSet = {
     'codicon:merge': 'tabler:arrow-merge',
     'codicon:milestone': 'tabler:milestone',
     'codicon:mirror': 'tabler:mirror',
+    'codicon:more': 'tabler:dots',
     'codicon:mortar-board': 'tabler:school',
     'codicon:move': 'tabler:arrows-move',
     'codicon:multiple-windows': 'tabler:multiple-windows',
@@ -717,7 +719,7 @@ export const set: IconSet = {
     'codicon:notebook': 'tabler:notebook',
     'codicon:notebook-template': 'tabler:notebook-template',
     'codicon:octoface': 'tabler:octoface',
-    'codicon:open-preview': 'tabler:open-preview',
+    // 'codicon:open-preview': 'tabler:article',
     'codicon:organization': 'tabler:organization',
     'codicon:output': 'tabler:output',
     'codicon:package': 'tabler:package',

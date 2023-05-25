@@ -418,6 +418,9 @@
     "merge": {
       "fontCharacter": "\\f04e"
     },
+    "more": {
+      "fontCharacter": "\\ea95"
+    },
     "mortar-board": {
       "fontCharacter": "\\ecf7"
     },
