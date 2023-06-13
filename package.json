@@ -3,7 +3,7 @@
   "name": "tabler-icons",
   "version": "0.1.11",
   "private": true,
-  "packageManager": "pnpm@7.32.0",
+  "packageManager": "pnpm@8.6.0",
   "engines": {
     "vscode": "*"
   },
