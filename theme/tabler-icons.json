@@ -220,6 +220,9 @@
     "discard": {
       "fontCharacter": "\\eb77"
     },
+    "drop-down-button": {
+      "fontCharacter": "\\ea5f"
+    },
     "edit": {
       "fontCharacter": "\\ea98"
     },

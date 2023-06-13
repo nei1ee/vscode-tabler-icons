@@ -129,6 +129,7 @@ export type IDS =
   | 'diff-renamed'
   | 'diff'
   | 'discard'
+  | 'drop-down-button'
   | 'edit'
   | 'editor-layout'
   | 'ellipsis'
@@ -579,6 +580,7 @@ export const set: IconSet = {
     'codicon:diff-removed': 'tabler:diff-removed',
     'codicon:diff-renamed': 'tabler:diff-renamed',
     'codicon:discard': 'tabler:arrow-back-up',
+    'codicon:drop-down-button': 'tabler:chevron-down',
     'codicon:edit': 'tabler:edit',
     'codicon:editor-layout': 'tabler:editor-layout',
     'codicon:ellipsis': 'tabler:dots',
