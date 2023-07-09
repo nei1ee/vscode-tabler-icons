@@ -3,7 +3,6 @@
   "name": "tabler-icons",
   "version": "0.1.12",
   "private": true,
-  "packageManager": "pnpm@8.6.0",
   "engines": {
     "vscode": "*"
   },
@@ -23,14 +22,15 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
-    "@antfu/ni": "^0.18.8",
-    "@tabler/icons": "^2.16.0",
-    "@tabler/icons-webfont": "^2.16.0",
-    "@types/fs-extra": "^9.0.13",
+    "@antfu/eslint-config": "^0.39.7",
+    "@antfu/ni": "^0.21.4",
+    "@tabler/icons": "^2.24.0",
+    "@tabler/icons-webfont": "^2.24.0",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.4.1",
     "@vscode/vsce": "^2.19.0",
-    "bumpp": "^9.1.0",
-    "eslint": "^8.38.0",
+    "bumpp": "^9.1.1",
+    "eslint": "^8.44.0",
     "esno": "^0.16.3",
     "fs-extra": "^10.1.0",
     "typescript": "^4.9.5",

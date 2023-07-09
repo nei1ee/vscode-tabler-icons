@@ -280,6 +280,9 @@
     "folder": {
       "fontCharacter": "\\eaad"
     },
+    "folder-opened": {
+      "fontCharacter": "\\faf7"
+    },
     "gear": {
       "fontCharacter": "\\eb20"
     },
@@ -387,6 +390,9 @@
     },
     "list-ordered": {
       "fontCharacter": "\\ef11"
+    },
+    "list-tree": {
+      "fontCharacter": "\\fafa"
     },
     "loading": {
       "fontCharacter": "\\eca3"
