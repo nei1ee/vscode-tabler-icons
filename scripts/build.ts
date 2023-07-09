@@ -1,4 +1,4 @@
-import { resolve } from 'path'
+import { resolve } from 'node:path'
 import fs from 'fs-extra'
 import pkg from '../package.json'
 import { set } from './set'

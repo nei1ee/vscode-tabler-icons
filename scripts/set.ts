@@ -614,7 +614,7 @@ export const set: IconSet = {
     'codicon:folder': 'tabler:folder',
     'codicon:folder-active': 'tabler:folder-active',
     'codicon:folder-library': 'tabler:folder-library',
-    'codicon:folder-opened': 'tabler:folder-opened',
+    'codicon:folder-opened': 'tabler:folder-open',
     'codicon:gear': 'tabler:settings',
     'codicon:gift': 'tabler:gift',
     'codicon:gist-secret': 'tabler:gist-secret',
