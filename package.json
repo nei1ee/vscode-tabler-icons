@@ -3,10 +3,10 @@
   "name": "tabler-icons",
   "version": "0.1.15",
   "private": true,
+  "packageManager": "pnpm@8.3.0",
   "engines": {
     "vscode": "*"
   },
-  "packageManager": "pnpm@8.3.0",
   "contributes": {
     "productIconThemes": [
       {
@@ -31,7 +31,7 @@
     "@types/node": "^20.4.1",
     "@vscode/vsce": "^2.19.0",
     "bumpp": "^9.1.1",
-    "eslint": "^8.44.0",
+    "eslint": "^8.39.0",
     "esno": "^0.16.3",
     "fs-extra": "^10.1.0",
     "typescript": "^4.9.5",
