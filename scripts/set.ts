@@ -402,6 +402,7 @@ export type IDS =
   | 'tools'
   | 'toolbar-more'
   | 'trash'
+  | 'trashcan'
   | 'tree-item-expanded'
   | 'triangle-down'
   | 'triangle-left'
@@ -838,7 +839,7 @@ export const set: IconSet = {
     'codicon:target': 'tabler:target',
     'codicon:tasklist': 'tabler:tasklist',
     'codicon:telescope': 'tabler:telescope',
-    'codicon:terminal': 'tabler:terminal-2',
+    'codicon:terminal': 'tabler:terminal',
     'codicon:terminal-bash': 'tabler:terminal-bash',
     'codicon:terminal-cmd': 'tabler:terminal-cmd',
     'codicon:terminal-debian': 'tabler:terminal-debian',
@@ -853,6 +854,7 @@ export const set: IconSet = {
     'codicon:tools': 'tabler:tools',
     'codicon:toolbar-more': 'tabler:dots',
     'codicon:trash': 'tabler:trash',
+    'codicon:trashcan': 'tabler:trash',
     'codicon:tree-item-expanded': 'tabler:chevron-down',
     'codicon:triangle-down': 'tabler:caret-down',
     'codicon:triangle-left': 'tabler:caret-left',
