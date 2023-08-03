@@ -25,8 +25,8 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
     "@antfu/ni": "^0.21.4",
-    "@tabler/icons": "^2.24.0",
-    "@tabler/icons-webfont": "^2.24.0",
+    "@tabler/icons": "^2.30.0",
+    "@tabler/icons-webfont": "^2.30.0",
     "@types/fs-extra": "^11.0.1",
     "@types/node": "^20.4.1",
     "@vscode/vsce": "^2.19.0",

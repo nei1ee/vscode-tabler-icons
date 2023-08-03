@@ -181,6 +181,7 @@ export type IDS =
   | 'github-inverted'
   | 'github'
   | 'gitlens-gitlens'
+  | 'gitlens-gitlens-inspect'
   | 'globe'
   | 'go-to-file'
   | 'grabber'
@@ -633,6 +634,7 @@ export const set: IconSet = {
     'codicon:github-alt': 'tabler:brand-github',
     'codicon:github-inverted': 'tabler:github-inverted',
     'codicon:gitlens-gitlens': 'tabler:brand-git',
+    'codicon:gitlens-gitlens-inspect': 'tabler:brand-git',
     'codicon:globe': 'tabler:globe',
     'codicon:go-to-file': 'tabler:file-arrow-right',
     'codicon:grabber': 'tabler:grabber',
@@ -670,16 +672,16 @@ export const set: IconSet = {
     'codicon:layout-activitybar-right': 'tabler:layout-activitybar-right',
     'codicon:layout-centered': 'tabler:layout-centered',
     'codicon:layout-menubar': 'tabler:layout-menubar',
-    'codicon:layout-panel': 'tabler:layout-panel',
+    'codicon:layout-panel': 'tabler:layout-bottombar-collapse-filled',
     'codicon:layout-panel-center': 'tabler:layout-panel-center',
     'codicon:layout-panel-justify': 'tabler:layout-panel-justify',
     'codicon:layout-panel-left': 'tabler:layout-panel-left',
-    'codicon:layout-panel-off': 'tabler:layout-panel-off',
+    'codicon:layout-panel-off': 'tabler:layout-bottombar-expand-filled',
     'codicon:layout-panel-right': 'tabler:layout-panel-right',
-    'codicon:layout-sidebar-left': 'tabler:layout-sidebar-left',
-    'codicon:layout-sidebar-left-off': 'tabler:layout-sidebar-left-off',
-    'codicon:layout-sidebar-right': 'tabler:layout-sidebar-right',
-    'codicon:layout-sidebar-right-off': 'tabler:layout-sidebar-right-off',
+    'codicon:layout-sidebar-left': 'tabler:layout-sidebar-left-collapse-filled',
+    'codicon:layout-sidebar-left-off': 'tabler:layout-sidebar-left-expand-filled',
+    'codicon:layout-sidebar-right': 'tabler:layout-sidebar-right-collapse-filled',
+    'codicon:layout-sidebar-right-off': 'tabler:layout-sidebar-right-expand-filled',
     'codicon:layout-statusbar': 'tabler:layout-statusbar',
     'codicon:library': 'tabler:books',
     'codicon:lightbulb': 'tabler:lightbulb',

@@ -262,6 +262,9 @@
     "filter": {
       "fontCharacter": "\\eaa5"
     },
+    "filter-filled": {
+      "fontCharacter": "\\fc27"
+    },
     "find-selection": {
       "fontCharacter": "\\ea08"
     },
@@ -319,6 +322,9 @@
     "gitlens-gitlens": {
       "fontCharacter": "\\ef6f"
     },
+    "gitlens-gitlens-inspect": {
+      "fontCharacter": "\\ef6f"
+    },
     "globe": {
       "fontCharacter": "\\eab9"
     },
@@ -370,8 +376,23 @@
     "layout": {
       "fontCharacter": "\\eadb"
     },
+    "layout-panel": {
+      "fontCharacter": "\\fc35"
+    },
+    "layout-panel-off": {
+      "fontCharacter": "\\fc36"
+    },
+    "layout-sidebar-left": {
+      "fontCharacter": "\\fc3b"
+    },
+    "layout-sidebar-left-off": {
+      "fontCharacter": "\\fc3c"
+    },
     "layout-sidebar-right": {
-      "fontCharacter": "\\ead9"
+      "fontCharacter": "\\fc3d"
+    },
+    "layout-sidebar-right-off": {
+      "fontCharacter": "\\fc3e"
     },
     "library": {
       "fontCharacter": "\\eff2"
