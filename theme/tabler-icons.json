@@ -94,6 +94,9 @@
     "bracket": {
       "fontCharacter": "\\ebcc"
     },
+    "bracket-error": {
+      "fontCharacter": "\\f0bf"
+    },
     "briefcase": {
       "fontCharacter": "\\ea46"
     },
@@ -178,8 +181,14 @@
     "compare-changes": {
       "fontCharacter": "\\ebe7"
     },
+    "color-mode": {
+      "fontCharacter": "\\ec4e"
+    },
     "comment-discussion": {
       "fontCharacter": "\\eb6c"
+    },
+    "comment-draft": {
+      "fontCharacter": "\\eaee"
     },
     "compass": {
       "fontCharacter": "\\ea79"
@@ -226,6 +235,9 @@
     "edit": {
       "fontCharacter": "\\ea98"
     },
+    "editor-layout": {
+      "fontCharacter": "\\ef95"
+    },
     "ellipsis": {
       "fontCharacter": "\\ea95"
     },
@@ -234,6 +246,9 @@
     },
     "error-small": {
       "fontCharacter": "\\ea6a"
+    },
+    "export": {
+      "fontCharacter": "\\eda1"
     },
     "extensions": {
       "fontCharacter": "\\eb10"
@@ -253,11 +268,26 @@
     "file-code": {
       "fontCharacter": "\\ebd0"
     },
+    "file-media": {
+      "fontCharacter": "\\eb0a"
+    },
+    "file-pdf": {
+      "fontCharacter": "\\fb10"
+    },
+    "file-submodule": {
+      "fontCharacter": "\\eaae"
+    },
+    "file-symlink-directory": {
+      "fontCharacter": "\\f91b"
+    },
+    "file-symlink-file": {
+      "fontCharacter": "\\ed53"
+    },
     "file-zip": {
       "fontCharacter": "\\ed4e"
     },
     "files": {
-      "fontCharacter": "\\edef"
+      "fontCharacter": "\\eaad"
     },
     "filter": {
       "fontCharacter": "\\eaa5"
@@ -282,6 +312,9 @@
     },
     "folder": {
       "fontCharacter": "\\eaad"
+    },
+    "folder-active": {
+      "fontCharacter": "\\f90e"
     },
     "folder-opened": {
       "fontCharacter": "\\faf7"
@@ -319,6 +352,9 @@
     "github-alt": {
       "fontCharacter": "\\ec1c"
     },
+    "github-inverted": {
+      "fontCharacter": "\\f7e7"
+    },
     "gitlens-gitlens": {
       "fontCharacter": "\\ef6f"
     },
@@ -333,6 +369,9 @@
     },
     "graph": {
       "fontCharacter": "\\f288"
+    },
+    "graph-line": {
+      "fontCharacter": "\\f619"
     },
     "heart": {
       "fontCharacter": "\\eabe"
@@ -355,6 +394,15 @@
     "info": {
       "fontCharacter": "\\eac5"
     },
+    "issue-draft": {
+      "fontCharacter": "\\ed28"
+    },
+    "issue-reopened": {
+      "fontCharacter": "\\efbf"
+    },
+    "issues": {
+      "fontCharacter": "\\efb1"
+    },
     "italic": {
       "fontCharacter": "\\eb93"
     },
@@ -373,8 +421,17 @@
     "law": {
       "fontCharacter": "\\ebc2"
     },
+    "layers": {
+      "fontCharacter": "\\eef7"
+    },
     "layout": {
       "fontCharacter": "\\eadb"
+    },
+    "layout-activitybar-left": {
+      "fontCharacter": "\\eada"
+    },
+    "layout-activitybar-right": {
+      "fontCharacter": "\\ead9"
     },
     "layout-panel": {
       "fontCharacter": "\\fc35"
@@ -394,8 +451,20 @@
     "layout-sidebar-right-off": {
       "fontCharacter": "\\fc3e"
     },
+    "layout-statusbar": {
+      "fontCharacter": "\\fc37"
+    },
     "library": {
       "fontCharacter": "\\eff2"
+    },
+    "lightbulb": {
+      "fontCharacter": "\\ea51"
+    },
+    "light-bulb": {
+      "fontCharacter": "\\ea51"
+    },
+    "lightbulb-autofix": {
+      "fontCharacter": "\\f66a"
     },
     "link": {
       "fontCharacter": "\\eade"
@@ -412,8 +481,14 @@
     "list-ordered": {
       "fontCharacter": "\\ef11"
     },
+    "list-selection": {
+      "fontCharacter": "\\ea08"
+    },
     "list-tree": {
       "fontCharacter": "\\fafa"
+    },
+    "list-unordered": {
+      "fontCharacter": "\\eb6b"
     },
     "loading": {
       "fontCharacter": "\\eca3"
@@ -439,6 +514,9 @@
     "markdown": {
       "fontCharacter": "\\ec41"
     },
+    "megaphone": {
+      "fontCharacter": "\\ed61"
+    },
     "mention": {
       "fontCharacter": "\\ea2b"
     },
@@ -447,6 +525,9 @@
     },
     "merge": {
       "fontCharacter": "\\f04e"
+    },
+    "milestone": {
+      "fontCharacter": "\\f06c"
     },
     "more": {
       "fontCharacter": "\\ea95"
@@ -472,8 +553,17 @@
     "notebook": {
       "fontCharacter": "\\eb96"
     },
+    "organization": {
+      "fontCharacter": "\\fa21"
+    },
+    "output": {
+      "fontCharacter": "\\eb6e"
+    },
     "package": {
       "fontCharacter": "\\eaff"
+    },
+    "paintcan": {
+      "fontCharacter": "\\f56a"
     },
     "panel-close": {
       "fontCharacter": "\\eb55"
@@ -486,6 +576,12 @@
     },
     "person": {
       "fontCharacter": "\\eae6"
+    },
+    "person-add": {
+      "fontCharacter": "\\eb4b"
+    },
+    "pie-chart": {
+      "fontCharacter": "\\ea5d"
     },
     "pin": {
       "fontCharacter": "\\ec9c"
@@ -505,6 +601,12 @@
     "preserve-case": {
       "fontCharacter": "\\eea4"
     },
+    "primitive-square": {
+      "fontCharacter": "\\eb2c"
+    },
+    "project": {
+      "fontCharacter": "\\f539"
+    },
     "pulse": {
       "fontCharacter": "\\ed23"
     },
@@ -516,6 +618,12 @@
     },
     "radio-tower": {
       "fontCharacter": "\\f4be"
+    },
+    "record": {
+      "fontCharacter": "\\efb1"
+    },
+    "record-keys": {
+      "fontCharacter": "\\ebd6"
     },
     "redo": {
       "fontCharacter": "\\eb78"
@@ -529,8 +637,29 @@
     "remote-explorer": {
       "fontCharacter": "\\f861"
     },
+    "remove": {
+      "fontCharacter": "\\eaf2"
+    },
     "replace": {
       "fontCharacter": "\\ebc7"
+    },
+    "replace-all": {
+      "fontCharacter": "\\f69c"
+    },
+    "reply": {
+      "fontCharacter": "\\eb77"
+    },
+    "repo": {
+      "fontCharacter": "\\efc5"
+    },
+    "repo-clone": {
+      "fontCharacter": "\\f070"
+    },
+    "repo-forked": {
+      "fontCharacter": "\\eb8f"
+    },
+    "repo-push": {
+      "fontCharacter": "\\f071"
     },
     "report": {
       "fontCharacter": "\\eece"
@@ -543,6 +672,12 @@
     },
     "save": {
       "fontCharacter": "\\eb62"
+    },
+    "screen-full": {
+      "fontCharacter": "\\eaea"
+    },
+    "screen-normal": {
+      "fontCharacter": "\\eaf1"
     },
     "search": {
       "fontCharacter": "\\eb1c"
@@ -572,7 +707,10 @@
       "fontCharacter": "\\eaf7"
     },
     "source-control": {
-      "fontCharacter": "\\eb8f"
+      "fontCharacter": "\\eab5"
+    },
+    "sparkle": {
+      "fontCharacter": "\\f6d7"
     },
     "split-horizontal": {
       "fontCharacter": "\\ead4"
@@ -589,6 +727,90 @@
     "star-half": {
       "fontCharacter": "\\f6a7"
     },
+    "symbol-array": {
+      "fontCharacter": "\\ebcd"
+    },
+    "symbol-boolean": {
+      "fontCharacter": "\\fadd"
+    },
+    "symbol-class": {
+      "fontCharacter": "\\f389"
+    },
+    "symbol-color": {
+      "fontCharacter": "\\eb61"
+    },
+    "symbol-constant": {
+      "fontCharacter": "\\f1e2"
+    },
+    "symbol-enum": {
+      "fontCharacter": "\\eac9"
+    },
+    "symbol-enum-member": {
+      "fontCharacter": "\\eac9"
+    },
+    "symbol-event": {
+      "fontCharacter": "\\ea38"
+    },
+    "symbol-field": {
+      "fontCharacter": "\\fab5"
+    },
+    "symbol-file": {
+      "fontCharacter": "\\eaa4"
+    },
+    "symbol-interface": {
+      "fontCharacter": "\\f583"
+    },
+    "symbol-key": {
+      "fontCharacter": "\\f567"
+    },
+    "symbol-keyword": {
+      "fontCharacter": "\\f535"
+    },
+    "symbol-method": {
+      "fontCharacter": "\\fa97"
+    },
+    "symbol-misc": {
+      "fontCharacter": "\\ece8"
+    },
+    "symbol-namespace": {
+      "fontCharacter": "\\ebcc"
+    },
+    "symbol-numeric": {
+      "fontCharacter": "\\ebeb"
+    },
+    "symbol-operator": {
+      "fontCharacter": "\\eeb3"
+    },
+    "symbol-parameter": {
+      "fontCharacter": "\\f204"
+    },
+    "symbol-property": {
+      "fontCharacter": "\\eb40"
+    },
+    "symbol-ruler": {
+      "fontCharacter": "\\f290"
+    },
+    "symbol-snippet": {
+      "fontCharacter": "\\f647"
+    },
+    "symbol-string": {
+      "fontCharacter": "\\f567"
+    },
+    "symbol-text": {
+      "fontCharacter": "\\f567"
+    },
+    "symbol-structure": {
+      "fontCharacter": "\\eacc"
+    },
+    "symbol-struct": {
+      "fontCharacter": "\\eacc"
+    },
+    "symbol-variable": {
+      "fontCharacter": "\\fab5"
+    },
+    "symbol-function": {
+      "fontCharacter": "\\fa97"
+    },
     "sync": {
       "fontCharacter": "\\eb13"
     },
@@ -604,14 +826,29 @@
     "target": {
       "fontCharacter": "\\eb35"
     },
+    "tasklist": {
+      "fontCharacter": "\\eb6a"
+    },
     "telescope": {
       "fontCharacter": "\\f07d"
     },
     "terminal": {
       "fontCharacter": "\\ebdc"
     },
+    "terminal-tmux": {
+      "fontCharacter": "\\ef95"
+    },
     "text-size": {
       "fontCharacter": "\\f2b1"
+    },
+    "three-bars": {
+      "fontCharacter": "\\f9f1"
+    },
+    "thumbsdown": {
+      "fontCharacter": "\\eb3b"
+    },
+    "thumbsup": {
+      "fontCharacter": "\\eb3c"
     },
     "tools": {
       "fontCharacter": "\\ebca"
@@ -649,8 +886,20 @@
     "unmute": {
       "fontCharacter": "\\f1c3"
     },
+    "verified": {
+      "fontCharacter": "\\f1f8"
+    },
+    "verified-filled": {
+      "fontCharacter": "\\f746"
+    },
     "versions": {
       "fontCharacter": "\\ed52"
+    },
+    "vm": {
+      "fontCharacter": "\\ea89"
+    },
+    "vm-active": {
+      "fontCharacter": "\\f860"
     },
     "wand": {
       "fontCharacter": "\\ebcb"
