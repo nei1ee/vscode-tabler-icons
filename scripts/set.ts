@@ -609,7 +609,7 @@ export const set: IconSet = {
     'codicon:file-symlink-directory': 'tabler:folder-symlink',
     'codicon:file-symlink-file': 'tabler:file-symlink',
     'codicon:file-zip': 'tabler:file-zip',
-    'codicon:files': 'tabler:folder',
+    'codicon:files': 'tabler:files',
     'codicon:filter': 'tabler:filter',
     'codicon:filter-filled': 'tabler:filter-filled',
     'codicon:find-selection': 'tabler:align-justified',
