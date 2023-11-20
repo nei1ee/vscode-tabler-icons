@@ -214,6 +214,9 @@
     "debug-alt": {
       "fontCharacter": "\\ea48"
     },
+    "debug-disconnect": {
+      "fontCharacter": "\\f00a"
+    },
     "desktop-download": {
       "fontCharacter": "\\f864"
     },
@@ -287,7 +290,7 @@
       "fontCharacter": "\\ed4e"
     },
     "files": {
-      "fontCharacter": "\\eaad"
+      "fontCharacter": "\\edef"
     },
     "filter": {
       "fontCharacter": "\\eaa5"
@@ -324,6 +327,9 @@
     },
     "gift": {
       "fontCharacter": "\\eb68"
+    },
+    "git-branch": {
+      "fontCharacter": "\\eab2"
     },
     "git-commit": {
       "fontCharacter": "\\eab3"
@@ -633,6 +639,9 @@
     },
     "regex": {
       "fontCharacter": "\\f31f"
+    },
+    "remote": {
+      "fontCharacter": "\\f84e"
     },
     "remote-explorer": {
       "fontCharacter": "\\f861"

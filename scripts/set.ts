@@ -167,6 +167,7 @@ export type IDS =
   | 'gear'
   | 'gift'
   | 'gist-secret'
+  | 'git-branch'
   | 'git-commit'
   | 'git-compare'
   | 'git-merge'
@@ -560,7 +561,7 @@ export const set: IconSet = {
     'codicon:debug-continue': 'tabler:debug-continue',
     'codicon:debug-continue-small': 'tabler:debug-continue-small',
     'codicon:debug-coverage': 'tabler:debug-coverage',
-    'codicon:debug-disconnect': 'tabler:debug-disconnect',
+    'codicon:debug-disconnect': 'tabler:plug-connected',
     'codicon:debug-line-by-line': 'tabler:debug-line-by-line',
     'codicon:debug-pause': 'tabler:debug-pause',
     'codicon:debug-rerun': 'tabler:debug-rerun',
@@ -624,6 +625,7 @@ export const set: IconSet = {
     'codicon:gear': 'tabler:settings',
     'codicon:gift': 'tabler:gift',
     'codicon:gist-secret': 'tabler:gist-secret',
+    'codicon:git-branch': 'tabler:git-branch',
     'codicon:git-commit': 'tabler:git-commit',
     'codicon:git-compare': 'tabler:git-compare',
     'codicon:git-merge': 'tabler:git-merge',
@@ -763,7 +765,7 @@ export const set: IconSet = {
     'codicon:references': 'tabler:references',
     'codicon:refresh': 'tabler:refresh',
     'codicon:regex': 'tabler:regex',
-    'codicon:remote': 'tabler:remote',
+    'codicon:remote': 'tabler:cloud-code',
     'codicon:remote-explorer': 'tabler:device-desktop-code',
     'codicon:remove': 'tabler:minus',
     'codicon:replace': 'tabler:replace',
