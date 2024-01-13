@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   release:
@@ -16,14 +16,14 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 8.6.0
+          version: 8.12.0
 
       - name: Set node
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
           cache: pnpm
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: "https://registry.npmjs.org"
 
       - name: Release Note
         run: npx changelogithub
@@ -41,8 +41,3 @@ jobs:
         run: cd theme && npx vsce publish -p ${{secrets.VSCE_TOKEN}}
         env:
           VSCE_TOKEN: ${{secrets.VSCE_TOKEN}}
-
-      # - name: Open VSX Extension
-      #   run: cd theme && npx ovsx publish -p ${{secrets.OVSX_TOKEN}}
-      #   env:
-      #     OVSX_TOKEN: ${{secrets.OVSX_TOKEN}}

@@ -181,6 +181,9 @@
     "compare-changes": {
       "fontCharacter": "\\ebe7"
     },
+    "collapse-all": {
+      "fontCharacter": "\\fd49"
+    },
     "color-mode": {
       "fontCharacter": "\\ec4e"
     },
