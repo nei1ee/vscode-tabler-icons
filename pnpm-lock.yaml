@@ -12,11 +12,11 @@ devDependencies:
     specifier: ^0.21.9
     version: 0.21.9
   '@tabler/icons':
-    specifier: ^2.40.0
-    version: 2.40.0
+    specifier: ^2.46.0
+    version: 2.46.0
   '@tabler/icons-webfont':
-    specifier: ^2.40.0
-    version: 2.40.0
+    specifier: ^2.46.0
+    version: 2.46.0
   '@types/fs-extra':
     specifier: ^11.0.4
     version: 11.0.4
@@ -450,14 +450,14 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tabler/icons-webfont@2.40.0:
-    resolution: {integrity: sha512-bZiZ593O969YkjKwJbjY5h4sRIlLN3b/2EsTBR9TWoNIXP2SIIHlm84k+s7tKibvKS3q15t9BrQDkLrZey2xIw==}
+  /@tabler/icons-webfont@2.46.0:
+    resolution: {integrity: sha512-dg+YNvIZ+TeFjwEhg/oJXPHHJBYu6HAdgwcRblvL6hAWSjcfDkZN1d7e40L9AkyN8ZVHuLY9bbs1K6JSmxlsdQ==}
     dependencies:
-      '@tabler/icons': 2.40.0
+      '@tabler/icons': 2.46.0
     dev: true
 
-  /@tabler/icons@2.40.0:
-    resolution: {integrity: sha512-VqKsBSX159cLFTnCzkCmGhZtSPJHNN0lM2sC4xe0HPOfPUnjiex7rDHDdut4oe4iKRecDDpwXwM9BcU6xCPlCg==}
+  /@tabler/icons@2.46.0:
+    resolution: {integrity: sha512-Q5G8Pj5IO+Uhc6pszpu5/hGYY018JwEzzvmuqr+gKJtfIvAHA3umpwUilMRLEy89p+WCP+YsDhicMhfBCCv1qA==}
     dev: true
 
   /@types/fs-extra@11.0.4:

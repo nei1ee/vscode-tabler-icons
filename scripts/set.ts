@@ -71,6 +71,7 @@ export type IDS =
   | 'cloud'
   | 'code'
   | 'collapse-all'
+  | 'collapse-close-all'
   | 'color-mode'
   | 'combine'
   | 'comment-discussion'
@@ -530,7 +531,8 @@ export const set: IconSet = {
     'codicon:code': 'tabler:code',
     'codicon:comment': 'tabler:message',
     'codicon:compare-changes': 'tabler:exchange',
-    // 'codicon:collapse-all': 'tabler:collapse-all',
+    'codicon:collapse-all': 'tabler:library-minus',
+    // 'codicon:collapse-close-all': 'tabler:library-close',
     'codicon:color-mode': 'tabler:contrast',
     // 'codicon:combine': 'tabler:combine',
     'codicon:comment-discussion': 'tabler:messages',
