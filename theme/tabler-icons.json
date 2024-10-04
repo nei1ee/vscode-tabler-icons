@@ -163,6 +163,9 @@
     "clear-all": {
       "fontCharacter": "\\ee41"
     },
+    "close": {
+      "fontCharacter": "\\eb55"
+    },
     "cloud": {
       "fontCharacter": "\\ea76"
     },
@@ -847,8 +850,14 @@
     "terminal": {
       "fontCharacter": "\\ebdc"
     },
-    "terminal-tmux": {
-      "fontCharacter": "\\ef95"
+    "terminal-debian": {
+      "fontCharacter": "\\ef57"
+    },
+    "terminal-powershell": {
+      "fontCharacter": "\\f5ed"
+    },
+    "terminal-ubuntu": {
+      "fontCharacter": "\\ef59"
     },
     "text-size": {
       "fontCharacter": "\\f2b1"
@@ -871,23 +880,17 @@
     "trash": {
       "fontCharacter": "\\eb41"
     },
-    "trashcan": {
-      "fontCharacter": "\\eb41"
-    },
-    "tree-item-expanded": {
-      "fontCharacter": "\\ea5f"
-    },
     "triangle-down": {
-      "fontCharacter": "\\eb5d"
+      "fontCharacter": "\\fb2a"
     },
     "triangle-left": {
-      "fontCharacter": "\\eb5e"
+      "fontCharacter": "\\fb2b"
     },
     "triangle-right": {
-      "fontCharacter": "\\eb5f"
+      "fontCharacter": "\\fb2c"
     },
     "triangle-up": {
-      "fontCharacter": "\\eb60"
+      "fontCharacter": "\\fb2d"
     },
     "twitter": {
       "fontCharacter": "\\f7eb"
@@ -896,7 +899,7 @@
       "fontCharacter": "\\eae1"
     },
     "unmute": {
-      "fontCharacter": "\\f1c3"
+      "fontCharacter": "\\eb51"
     },
     "verified": {
       "fontCharacter": "\\f1f8"
@@ -927,9 +930,6 @@
     },
     "widget-close": {
       "fontCharacter": "\\eb55"
-    },
-    "window": {
-      "fontCharacter": "\\ef06"
     },
     "word-wrap": {
       "fontCharacter": "\\ebdd"

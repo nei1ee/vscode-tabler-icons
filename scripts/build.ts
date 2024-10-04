@@ -25,7 +25,7 @@ async function theme() {
     return [k, name]
   })
 
-  const webFontPath = resolve(__dirname, '../node_modules/@tabler/icons-webfont/fonts/')
+  const webFontPath = resolve(__dirname, '../node_modules/@tabler/icons-webfont/dist/fonts/')
 
   fs.copySync(webFontPath, 'temp/dist/')
 
