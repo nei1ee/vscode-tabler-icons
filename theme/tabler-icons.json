@@ -880,6 +880,9 @@
     "trash": {
       "fontCharacter": "\\eb41"
     },
+    "trashcan": {
+      "fontCharacter": "\\eb41"
+    },
     "triangle-down": {
       "fontCharacter": "\\fb2a"
     },

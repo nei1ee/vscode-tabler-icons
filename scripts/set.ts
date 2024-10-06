@@ -867,7 +867,7 @@ export const set: IconSet = {
     'codicon:tools': 'tabler:tools',
     'codicon:toolbar-more': 'tabler:dots',
     'codicon:trash': 'tabler:trash',
-    // 'codicon:trashcan': 'tabler:trash',
+    'codicon:trashcan': 'tabler:trash',
     // 'codicon:tree-item-expanded': 'tabler:chevron-down',
     'codicon:triangle-down': 'tabler:caret-down-filled',
     'codicon:triangle-left': 'tabler:caret-left-filled',
