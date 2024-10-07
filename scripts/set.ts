@@ -126,6 +126,7 @@ export type IDS =
   | 'diff-added'
   | 'diff-ignored'
   | 'diff-modified'
+  | 'diff-multiple'
   | 'diff-removed'
   | 'diff-renamed'
   | 'diff'
@@ -184,6 +185,7 @@ export type IDS =
   | 'github'
   | 'gitlens-gitlens'
   | 'gitlens-gitlens-inspect'
+  | 'gitlens-switch'
   | 'globe'
   | 'go-to-file'
   | 'grabber'
@@ -292,12 +294,14 @@ export type IDS =
   | 'play'
   | 'plug'
   | 'plus'
+  | 'ports-stop-forward-icon'
   | 'preserve-case'
   | 'preview'
   | 'primitive-square'
   | 'project'
   | 'pulse'
   | 'question'
+  | 'quick-input-back'
   | 'quote'
   | 'radio-tower'
   | 'reactions'
@@ -581,12 +585,13 @@ export const set: IconSet = {
     'codicon:device-camera': 'tabler:camera',
     'codicon:device-camera-video': 'tabler:video',
     'codicon:device-mobile': 'tabler:device-mobile',
-    'codicon:diff': 'tabler:diff',
-    'codicon:diff-added': 'tabler:diff-added',
-    'codicon:diff-ignored': 'tabler:diff-ignored',
+    // 'codicon:diff': 'tabler:diff',
+    // 'codicon:diff-added': 'tabler:diff-added',
+    // 'codicon:diff-ignored': 'tabler:diff-ignored',
     'codicon:diff-modified': 'tabler:diff-modified',
-    'codicon:diff-removed': 'tabler:diff-removed',
-    'codicon:diff-renamed': 'tabler:diff-renamed',
+    'codicon:diff-multiple': 'tabler:file-diff',
+    // 'codicon:diff-removed': 'tabler:diff-removed',
+    // 'codicon:diff-renamed': 'tabler:diff-renamed',
     'codicon:discard': 'tabler:arrow-back-up',
     'codicon:drop-down-button': 'tabler:chevron-down',
     'codicon:edit': 'tabler:edit',
@@ -632,7 +637,7 @@ export const set: IconSet = {
     'codicon:git-merge': 'tabler:git-merge',
     'codicon:git-pull-request': 'tabler:git-pull-request',
     'codicon:git-pull-request-closed': 'tabler:git-pull-request-closed',
-    // 'codicon:git-pull-request-create': 'tabler:git-pull-request-create',
+    'codicon:git-pull-request-create': 'tabler:git-pull-request',
     'codicon:git-pull-request-draft': 'tabler:git-pull-request-draft',
     'codicon:git-pull-request-go-to-changes': 'tabler:git-pull-request-go-to-changes',
     'codicon:git-pull-request-new-changes': 'tabler:file-diff',
@@ -642,6 +647,7 @@ export const set: IconSet = {
     'codicon:github-inverted': 'tabler:brand-github-filled',
     'codicon:gitlens-gitlens': 'tabler:brand-git',
     'codicon:gitlens-gitlens-inspect': 'tabler:brand-git',
+    'codicon:gitlens-switch': 'tabler:switch',
     'codicon:globe': 'tabler:globe',
     'codicon:go-to-file': 'tabler:file-arrow-right',
     // 'codicon:grabber': 'tabler:grabber',
@@ -750,12 +756,14 @@ export const set: IconSet = {
     'codicon:play-circle': 'tabler:play-circle',
     'codicon:plug': 'tabler:plug',
     'codicon:plus': 'tabler:plus',
+    'codicon:ports-stop-forward-icon': 'tabler:x',
     'codicon:preserve-case': 'tabler:letter-case-upper',
     'codicon:preview': 'tabler:preview',
     'codicon:primitive-square': 'tabler:square',
     'codicon:project': 'tabler:align-box-top-center',
     'codicon:pulse': 'tabler:activity',
     'codicon:question': 'tabler:help',
+    'codicon:quick-input-back': 'tabler-arrow-left',
     'codicon:quote': 'tabler:quote',
     'codicon:radio-tower': 'tabler:building-broadcast-tower',
     // 'codicon:reactions': 'tabler:reactions',
@@ -868,7 +876,7 @@ export const set: IconSet = {
     'codicon:toolbar-more': 'tabler:dots',
     'codicon:trash': 'tabler:trash',
     'codicon:trashcan': 'tabler:trash',
-    // 'codicon:tree-item-expanded': 'tabler:chevron-down',
+    'codicon:tree-item-expanded': 'tabler:chevron-down',
     'codicon:triangle-down': 'tabler:caret-down-filled',
     'codicon:triangle-left': 'tabler:caret-left-filled',
     'codicon:triangle-right': 'tabler:caret-right-filled',

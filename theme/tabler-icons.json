@@ -235,6 +235,9 @@
     "device-mobile": {
       "fontCharacter": "\\ea8a"
     },
+    "diff-multiple": {
+      "fontCharacter": "\\ecf1"
+    },
     "discard": {
       "fontCharacter": "\\eb77"
     },
@@ -352,6 +355,9 @@
     "git-pull-request-closed": {
       "fontCharacter": "\\ef7f"
     },
+    "git-pull-request-create": {
+      "fontCharacter": "\\eab6"
+    },
     "git-pull-request-draft": {
       "fontCharacter": "\\efb7"
     },
@@ -372,6 +378,9 @@
     },
     "gitlens-gitlens-inspect": {
       "fontCharacter": "\\ef6f"
+    },
+    "gitlens-switch": {
+      "fontCharacter": "\\eb33"
     },
     "globe": {
       "fontCharacter": "\\eab9"
@@ -609,6 +618,9 @@
     },
     "plus": {
       "fontCharacter": "\\eb0b"
+    },
+    "ports-stop-forward-icon": {
+      "fontCharacter": "\\eb55"
     },
     "preserve-case": {
       "fontCharacter": "\\eea4"
@@ -882,6 +894,9 @@
     },
     "trashcan": {
       "fontCharacter": "\\eb41"
+    },
+    "tree-item-expanded": {
+      "fontCharacter": "\\ea5f"
     },
     "triangle-down": {
       "fontCharacter": "\\fb2a"
