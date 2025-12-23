@@ -14,958 +14,1264 @@
   ],
   "iconDefinitions": {
     "account": {
-      "fontCharacter": "\\eb4d"
+      "fontCharacter": "\\eb0f",
+      "fontId": "tabler-icons"
     },
     "add": {
-      "fontCharacter": "\\eb0b"
+      "fontCharacter": "\\ead7",
+      "fontId": "tabler-icons"
     },
     "archive": {
-      "fontCharacter": "\\ea0b"
+      "fontCharacter": "\\ea08",
+      "fontId": "tabler-icons"
     },
     "arrow-both": {
-      "fontCharacter": "\\eb59"
+      "fontCharacter": "\\ea16",
+      "fontId": "tabler-icons"
     },
     "arrow-circle-down": {
-      "fontCharacter": "\\f6f9"
+      "fontCharacter": "\\ea47",
+      "fontId": "tabler-icons"
     },
     "arrow-circle-left": {
-      "fontCharacter": "\\f6fb"
+      "fontCharacter": "\\ea48",
+      "fontId": "tabler-icons"
     },
     "arrow-circle-right": {
-      "fontCharacter": "\\f6fd"
+      "fontCharacter": "\\ea49",
+      "fontId": "tabler-icons"
     },
     "arrow-circle-up": {
-      "fontCharacter": "\\f703"
+      "fontCharacter": "\\ea4a",
+      "fontId": "tabler-icons"
     },
     "arrow-down": {
-      "fontCharacter": "\\ea16"
+      "fontCharacter": "\\ea0b",
+      "fontId": "tabler-icons"
     },
     "arrow-left": {
-      "fontCharacter": "\\ea19"
+      "fontCharacter": "\\ea0d",
+      "fontId": "tabler-icons"
     },
     "arrow-right": {
-      "fontCharacter": "\\ea1f"
+      "fontCharacter": "\\ea14",
+      "fontId": "tabler-icons"
     },
     "arrow-small-down": {
-      "fontCharacter": "\\ea1a"
+      "fontCharacter": "\\ea0f",
+      "fontId": "tabler-icons"
     },
     "arrow-small-left": {
-      "fontCharacter": "\\ea1b"
+      "fontCharacter": "\\ea10",
+      "fontId": "tabler-icons"
     },
     "arrow-small-right": {
-      "fontCharacter": "\\ea1c"
+      "fontCharacter": "\\ea11",
+      "fontId": "tabler-icons"
     },
     "arrow-small-up": {
-      "fontCharacter": "\\ea1d"
+      "fontCharacter": "\\ea12",
+      "fontId": "tabler-icons"
     },
     "arrow-swap": {
-      "fontCharacter": "\\edb0"
+      "fontCharacter": "\\ea17",
+      "fontId": "tabler-icons"
     },
     "arrow-up": {
-      "fontCharacter": "\\ea25"
+      "fontCharacter": "\\ea15",
+      "fontId": "tabler-icons"
     },
     "beaker": {
-      "fontCharacter": "\\ebd2"
+      "fontCharacter": "\\ea81",
+      "fontId": "tabler-icons"
     },
     "azure": {
-      "fontCharacter": "\\fa4d"
+      "fontCharacter": "\\ea29",
+      "fontId": "tabler-icons"
     },
     "beaker-stop": {
-      "fontCharacter": "\\f130"
+      "fontCharacter": "\\ea80",
+      "fontId": "tabler-icons"
     },
     "bell": {
-      "fontCharacter": "\\ea35"
+      "fontCharacter": "\\ea1e",
+      "fontId": "tabler-icons"
     },
     "bell-dot": {
-      "fontCharacter": "\\ed07"
+      "fontCharacter": "\\ea1d",
+      "fontId": "tabler-icons"
     },
     "bell-slash": {
-      "fontCharacter": "\\ece9"
+      "fontCharacter": "\\ea1c",
+      "fontId": "tabler-icons"
     },
     "bold": {
-      "fontCharacter": "\\eb7b"
+      "fontCharacter": "\\ea1f",
+      "fontId": "tabler-icons"
     },
     "book": {
-      "fontCharacter": "\\ea39"
+      "fontCharacter": "\\ea23",
+      "fontId": "tabler-icons"
     },
     "bookmark": {
-      "fontCharacter": "\\ea3a"
+      "fontCharacter": "\\ea24",
+      "fontId": "tabler-icons"
     },
     "bracket": {
-      "fontCharacter": "\\ebcc"
+      "fontCharacter": "\\ea27",
+      "fontId": "tabler-icons"
     },
     "bracket-error": {
-      "fontCharacter": "\\f0bf"
+      "fontCharacter": "\\ea26",
+      "fontId": "tabler-icons"
     },
     "briefcase": {
-      "fontCharacter": "\\ea46"
+      "fontCharacter": "\\ea31",
+      "fontId": "tabler-icons"
     },
     "broadcast": {
-      "fontCharacter": "\\f1e9"
+      "fontCharacter": "\\ea32",
+      "fontId": "tabler-icons"
     },
     "browser": {
-      "fontCharacter": "\\ebb7"
+      "fontCharacter": "\\ea33",
+      "fontId": "tabler-icons"
     },
     "bug": {
-      "fontCharacter": "\\ea48"
+      "fontCharacter": "\\ea35",
+      "fontId": "tabler-icons"
     },
     "calendar": {
-      "fontCharacter": "\\ea53"
+      "fontCharacter": "\\ea39",
+      "fontId": "tabler-icons"
     },
     "call-incoming": {
-      "fontCharacter": "\\eb06"
+      "fontCharacter": "\\eacf",
+      "fontId": "tabler-icons"
     },
     "call-outgoing": {
-      "fontCharacter": "\\eb07"
+      "fontCharacter": "\\ead0",
+      "fontId": "tabler-icons"
     },
     "case-sensitive": {
-      "fontCharacter": "\\eea5"
+      "fontCharacter": "\\eaaf",
+      "fontId": "tabler-icons"
     },
     "check": {
-      "fontCharacter": "\\ea5e"
+      "fontCharacter": "\\ea41",
+      "fontId": "tabler-icons"
     },
     "check-all": {
-      "fontCharacter": "\\ebaa"
+      "fontCharacter": "\\ea42",
+      "fontId": "tabler-icons"
     },
     "checklist": {
-      "fontCharacter": "\\eb6a"
+      "fontCharacter": "\\eab3",
+      "fontId": "tabler-icons"
     },
     "chevron-down": {
-      "fontCharacter": "\\ea5f"
+      "fontCharacter": "\\ea43",
+      "fontId": "tabler-icons"
     },
     "chevron-left": {
-      "fontCharacter": "\\ea60"
+      "fontCharacter": "\\ea44",
+      "fontId": "tabler-icons"
     },
     "chevron-right": {
-      "fontCharacter": "\\ea61"
+      "fontCharacter": "\\ea45",
+      "fontId": "tabler-icons"
     },
     "circle": {
-      "fontCharacter": "\\eb0c"
+      "fontCharacter": "\\ead9",
+      "fontId": "tabler-icons"
     },
     "chevron-up": {
-      "fontCharacter": "\\ea62"
+      "fontCharacter": "\\ea46",
+      "fontId": "tabler-icons"
     },
     "clock": {
-      "fontCharacter": "\\ea70"
+      "fontCharacter": "\\ea54",
+      "fontId": "tabler-icons"
     },
     "circle-filled": {
-      "fontCharacter": "\\f698"
+      "fontCharacter": "\\ead8",
+      "fontId": "tabler-icons"
     },
     "circle-large": {
-      "fontCharacter": "\\ea6b"
+      "fontCharacter": "\\ea52",
+      "fontId": "tabler-icons"
     },
     "circle-large-filled": {
-      "fontCharacter": "\\f671"
+      "fontCharacter": "\\ea4f",
+      "fontId": "tabler-icons"
     },
     "circle-slash": {
-      "fontCharacter": "\\ee40"
+      "fontCharacter": "\\ea50",
+      "fontId": "tabler-icons"
     },
     "clear-all": {
-      "fontCharacter": "\\ee41"
+      "fontCharacter": "\\ea53",
+      "fontId": "tabler-icons"
     },
     "close": {
-      "fontCharacter": "\\eb55"
+      "fontCharacter": "\\eb16",
+      "fontId": "tabler-icons"
     },
     "cloud": {
-      "fontCharacter": "\\ea76"
+      "fontCharacter": "\\ea58",
+      "fontId": "tabler-icons"
     },
     "cloud-download": {
-      "fontCharacter": "\\ea71"
+      "fontCharacter": "\\ea56",
+      "fontId": "tabler-icons"
     },
     "cloud-upload": {
-      "fontCharacter": "\\ea75"
+      "fontCharacter": "\\ea57",
+      "fontId": "tabler-icons"
     },
     "code": {
-      "fontCharacter": "\\ea77"
+      "fontCharacter": "\\ea59",
+      "fontId": "tabler-icons"
     },
     "comment": {
-      "fontCharacter": "\\eaef"
+      "fontCharacter": "\\eac6",
+      "fontId": "tabler-icons"
     },
     "compare-changes": {
-      "fontCharacter": "\\ebe7"
+      "fontCharacter": "\\ea6f",
+      "fontId": "tabler-icons"
     },
     "collapse-all": {
-      "fontCharacter": "\\fd49"
+      "fontCharacter": "\\eab0",
+      "fontId": "tabler-icons"
     },
     "color-mode": {
-      "fontCharacter": "\\ec4e"
+      "fontCharacter": "\\ea5d",
+      "fontId": "tabler-icons"
     },
     "comment-discussion": {
-      "fontCharacter": "\\eb6c"
-    },
-    "comment-draft": {
-      "fontCharacter": "\\eaee"
+      "fontCharacter": "\\eac7",
+      "fontId": "tabler-icons"
     },
     "compass": {
-      "fontCharacter": "\\ea79"
+      "fontCharacter": "\\ea5c",
+      "fontId": "tabler-icons"
+    },
+    "compass-active": {
+      "fontCharacter": "\\ea5b",
+      "fontId": "tabler-icons"
     },
     "copy": {
-      "fontCharacter": "\\ea7a"
+      "fontCharacter": "\\ea5e",
+      "fontId": "tabler-icons"
     },
     "credit-card": {
-      "fontCharacter": "\\ea84"
+      "fontCharacter": "\\ea5f",
+      "fontId": "tabler-icons"
     },
     "dash": {
-      "fontCharacter": "\\eea7"
+      "fontCharacter": "\\eab1",
+      "fontId": "tabler-icons"
     },
     "dashboard": {
-      "fontCharacter": "\\ea87"
+      "fontCharacter": "\\ea61",
+      "fontId": "tabler-icons"
     },
     "database": {
-      "fontCharacter": "\\ea88"
+      "fontCharacter": "\\ea62",
+      "fontId": "tabler-icons"
     },
     "debug": {
-      "fontCharacter": "\\ea48"
+      "fontCharacter": "\\ea35",
+      "fontId": "tabler-icons"
     },
     "debug-alt": {
-      "fontCharacter": "\\ea48"
+      "fontCharacter": "\\ea35",
+      "fontId": "tabler-icons"
     },
     "debug-disconnect": {
-      "fontCharacter": "\\f00a"
+      "fontCharacter": "\\ead5",
+      "fontId": "tabler-icons"
     },
     "desktop-download": {
-      "fontCharacter": "\\f864"
+      "fontCharacter": "\\ea65",
+      "fontId": "tabler-icons"
     },
     "device-camera": {
-      "fontCharacter": "\\ea54"
+      "fontCharacter": "\\ea3a",
+      "fontId": "tabler-icons"
     },
     "device-camera-video": {
-      "fontCharacter": "\\ed22"
+      "fontCharacter": "\\eb12",
+      "fontId": "tabler-icons"
     },
     "device-mobile": {
-      "fontCharacter": "\\ea8a"
+      "fontCharacter": "\\ea6a",
+      "fontId": "tabler-icons"
     },
     "diff-multiple": {
-      "fontCharacter": "\\ecf1"
+      "fontCharacter": "\\ea75",
+      "fontId": "tabler-icons"
     },
     "discard": {
-      "fontCharacter": "\\eb77"
+      "fontCharacter": "\\ea09",
+      "fontId": "tabler-icons"
     },
     "drop-down-button": {
-      "fontCharacter": "\\ea5f"
+      "fontCharacter": "\\ea43",
+      "fontId": "tabler-icons"
     },
     "edit": {
-      "fontCharacter": "\\ea98"
+      "fontCharacter": "\\ea6e",
+      "fontId": "tabler-icons"
     },
     "editor-layout": {
-      "fontCharacter": "\\ef95"
+      "fontCharacter": "\\eaa3",
+      "fontId": "tabler-icons"
     },
     "ellipsis": {
-      "fontCharacter": "\\ea95"
+      "fontCharacter": "\\ea6d",
+      "fontId": "tabler-icons"
     },
     "error": {
-      "fontCharacter": "\\ea6a"
+      "fontCharacter": "\\ea51",
+      "fontId": "tabler-icons"
     },
     "error-small": {
-      "fontCharacter": "\\ea6a"
+      "fontCharacter": "\\ea51",
+      "fontId": "tabler-icons"
     },
     "export": {
-      "fontCharacter": "\\eda1"
+      "fontCharacter": "\\ea13",
+      "fontId": "tabler-icons"
     },
     "extensions": {
-      "fontCharacter": "\\eb10"
+      "fontCharacter": "\\eada",
+      "fontId": "tabler-icons"
     },
     "eye": {
-      "fontCharacter": "\\ea9a"
+      "fontCharacter": "\\ea72",
+      "fontId": "tabler-icons"
     },
     "eye-closed": {
-      "fontCharacter": "\\ecf0"
+      "fontCharacter": "\\ea71",
+      "fontId": "tabler-icons"
     },
     "file": {
-      "fontCharacter": "\\eaa4"
+      "fontCharacter": "\\ea7b",
+      "fontId": "tabler-icons"
     },
     "file-binary": {
-      "fontCharacter": "\\efa8"
+      "fontCharacter": "\\ea76",
+      "fontId": "tabler-icons"
     },
     "file-code": {
-      "fontCharacter": "\\ebd0"
+      "fontCharacter": "\\ea74",
+      "fontId": "tabler-icons"
     },
     "file-media": {
-      "fontCharacter": "\\eb0a"
+      "fontCharacter": "\\ead1",
+      "fontId": "tabler-icons"
     },
     "file-pdf": {
-      "fontCharacter": "\\fb10"
+      "fontCharacter": "\\ea79",
+      "fontId": "tabler-icons"
     },
     "file-submodule": {
-      "fontCharacter": "\\eaae"
+      "fontCharacter": "\\ea8a",
+      "fontId": "tabler-icons"
     },
     "file-symlink-directory": {
-      "fontCharacter": "\\f91b"
+      "fontCharacter": "\\ea88",
+      "fontId": "tabler-icons"
     },
     "file-symlink-file": {
-      "fontCharacter": "\\ed53"
+      "fontCharacter": "\\ea78",
+      "fontId": "tabler-icons"
     },
     "file-zip": {
-      "fontCharacter": "\\ed4e"
+      "fontCharacter": "\\ea7a",
+      "fontId": "tabler-icons"
     },
     "files": {
-      "fontCharacter": "\\edef"
+      "fontCharacter": "\\ea7c",
+      "fontId": "tabler-icons"
     },
     "filter": {
-      "fontCharacter": "\\eaa5"
+      "fontCharacter": "\\ea7e",
+      "fontId": "tabler-icons"
     },
     "filter-filled": {
-      "fontCharacter": "\\fc27"
+      "fontCharacter": "\\ea7d",
+      "fontId": "tabler-icons"
     },
     "find-selection": {
-      "fontCharacter": "\\ea08"
+      "fontCharacter": "\\ea07",
+      "fontId": "tabler-icons"
     },
     "flame": {
-      "fontCharacter": "\\ec2c"
+      "fontCharacter": "\\ea7f",
+      "fontId": "tabler-icons"
     },
     "fold": {
-      "fontCharacter": "\\ed56"
+      "fontCharacter": "\\ea84",
+      "fontId": "tabler-icons"
     },
     "fold-down": {
-      "fontCharacter": "\\ed54"
+      "fontCharacter": "\\ea82",
+      "fontId": "tabler-icons"
     },
     "fold-up": {
-      "fontCharacter": "\\ed55"
+      "fontCharacter": "\\ea83",
+      "fontId": "tabler-icons"
     },
     "folder": {
-      "fontCharacter": "\\eaad"
+      "fontCharacter": "\\ea89",
+      "fontId": "tabler-icons"
     },
     "folder-active": {
-      "fontCharacter": "\\f90e"
+      "fontCharacter": "\\ea85",
+      "fontId": "tabler-icons"
     },
     "folder-opened": {
-      "fontCharacter": "\\faf7"
+      "fontCharacter": "\\ea86",
+      "fontId": "tabler-icons"
     },
     "gear": {
-      "fontCharacter": "\\eb20"
+      "fontCharacter": "\\eaf0",
+      "fontId": "tabler-icons"
     },
     "gift": {
-      "fontCharacter": "\\eb68"
+      "fontCharacter": "\\ea8b",
+      "fontId": "tabler-icons"
     },
     "git-branch": {
-      "fontCharacter": "\\eab2"
+      "fontCharacter": "\\ea8c",
+      "fontId": "tabler-icons"
     },
     "git-commit": {
-      "fontCharacter": "\\eab3"
+      "fontCharacter": "\\ea8d",
+      "fontId": "tabler-icons"
     },
     "git-compare": {
-      "fontCharacter": "\\eab4"
+      "fontCharacter": "\\ea8e",
+      "fontId": "tabler-icons"
     },
     "git-merge": {
-      "fontCharacter": "\\eab5"
+      "fontCharacter": "\\ea90",
+      "fontId": "tabler-icons"
     },
     "git-pull-request": {
-      "fontCharacter": "\\eab6"
+      "fontCharacter": "\\ea93",
+      "fontId": "tabler-icons"
     },
     "git-pull-request-closed": {
-      "fontCharacter": "\\ef7f"
+      "fontCharacter": "\\ea91",
+      "fontId": "tabler-icons"
     },
     "git-pull-request-create": {
-      "fontCharacter": "\\eab6"
+      "fontCharacter": "\\ea93",
+      "fontId": "tabler-icons"
     },
     "git-pull-request-draft": {
-      "fontCharacter": "\\efb7"
+      "fontCharacter": "\\ea92",
+      "fontId": "tabler-icons"
     },
     "git-pull-request-new-changes": {
-      "fontCharacter": "\\ecf1"
+      "fontCharacter": "\\ea75",
+      "fontId": "tabler-icons"
     },
     "github": {
-      "fontCharacter": "\\ec1c"
+      "fontCharacter": "\\ea2d",
+      "fontId": "tabler-icons"
     },
     "github-alt": {
-      "fontCharacter": "\\ec1c"
+      "fontCharacter": "\\ea2d",
+      "fontId": "tabler-icons"
     },
     "github-inverted": {
-      "fontCharacter": "\\f7e7"
+      "fontCharacter": "\\ea2c",
+      "fontId": "tabler-icons"
     },
     "gitlens-gitlens": {
-      "fontCharacter": "\\ef6f"
+      "fontCharacter": "\\ea2b",
+      "fontId": "tabler-icons"
     },
     "gitlens-gitlens-inspect": {
-      "fontCharacter": "\\ef6f"
+      "fontCharacter": "\\ea2b",
+      "fontId": "tabler-icons"
     },
     "gitlens-switch": {
-      "fontCharacter": "\\eb33"
+      "fontCharacter": "\\eaff",
+      "fontId": "tabler-icons"
     },
     "globe": {
-      "fontCharacter": "\\eab9"
+      "fontCharacter": "\\ea94",
+      "fontId": "tabler-icons"
     },
     "go-to-file": {
-      "fontCharacter": "\\f034"
+      "fontCharacter": "\\ea73",
+      "fontId": "tabler-icons"
     },
     "graph": {
-      "fontCharacter": "\\f288"
+      "fontCharacter": "\\ea95",
+      "fontId": "tabler-icons"
     },
     "graph-line": {
-      "fontCharacter": "\\f619"
+      "fontCharacter": "\\ea40",
+      "fontId": "tabler-icons"
     },
     "heart": {
-      "fontCharacter": "\\eabe"
+      "fontCharacter": "\\ea97",
+      "fontId": "tabler-icons"
     },
     "heart-filled": {
-      "fontCharacter": "\\f67c"
+      "fontCharacter": "\\ea96",
+      "fontId": "tabler-icons"
     },
     "history": {
-      "fontCharacter": "\\ebea"
+      "fontCharacter": "\\ea99",
+      "fontId": "tabler-icons"
     },
     "home": {
-      "fontCharacter": "\\eac1"
+      "fontCharacter": "\\ea9a",
+      "fontId": "tabler-icons"
     },
     "hubot": {
-      "fontCharacter": "\\f00b"
+      "fontCharacter": "\\eae4",
+      "fontId": "tabler-icons"
     },
     "inbox": {
-      "fontCharacter": "\\eac4"
+      "fontCharacter": "\\ea9b",
+      "fontId": "tabler-icons"
     },
     "info": {
-      "fontCharacter": "\\eac5"
+      "fontCharacter": "\\ea9c",
+      "fontId": "tabler-icons"
     },
     "issue-draft": {
-      "fontCharacter": "\\ed28"
+      "fontCharacter": "\\ea4e",
+      "fontId": "tabler-icons"
     },
     "issue-reopened": {
-      "fontCharacter": "\\efbf"
+      "fontCharacter": "\\eadd",
+      "fontId": "tabler-icons"
     },
     "issues": {
-      "fontCharacter": "\\efb1"
+      "fontCharacter": "\\ea4d",
+      "fontId": "tabler-icons"
     },
     "italic": {
-      "fontCharacter": "\\eb93"
+      "fontCharacter": "\\ea9d",
+      "fontId": "tabler-icons"
     },
     "jersey": {
-      "fontCharacter": "\\f26c"
+      "fontCharacter": "\\eaf5",
+      "fontId": "tabler-icons"
     },
     "json": {
-      "fontCharacter": "\\ebcc"
+      "fontCharacter": "\\ea27",
+      "fontId": "tabler-icons"
     },
     "kebab-vertical": {
-      "fontCharacter": "\\ea94"
+      "fontCharacter": "\\ea6c",
+      "fontId": "tabler-icons"
     },
     "key": {
-      "fontCharacter": "\\eac7"
+      "fontCharacter": "\\ea9e",
+      "fontId": "tabler-icons"
     },
     "law": {
-      "fontCharacter": "\\ebc2"
+      "fontCharacter": "\\eaeb",
+      "fontId": "tabler-icons"
     },
     "layers": {
-      "fontCharacter": "\\eef7"
+      "fontCharacter": "\\eafb",
+      "fontId": "tabler-icons"
     },
     "layout": {
-      "fontCharacter": "\\eadb"
-    },
-    "layout-activitybar-left": {
-      "fontCharacter": "\\eada"
-    },
-    "layout-activitybar-right": {
-      "fontCharacter": "\\ead9"
+      "fontCharacter": "\\eaad",
+      "fontId": "tabler-icons"
     },
     "layout-panel": {
-      "fontCharacter": "\\fc35"
+      "fontCharacter": "\\eaa4",
+      "fontId": "tabler-icons"
     },
     "layout-panel-off": {
-      "fontCharacter": "\\fc36"
+      "fontCharacter": "\\eaa5",
+      "fontId": "tabler-icons"
     },
     "layout-sidebar-left": {
-      "fontCharacter": "\\fc3b"
+      "fontCharacter": "\\eaa9",
+      "fontId": "tabler-icons"
     },
     "layout-sidebar-left-off": {
-      "fontCharacter": "\\fc3c"
+      "fontCharacter": "\\eaac",
+      "fontId": "tabler-icons"
     },
     "layout-sidebar-right": {
-      "fontCharacter": "\\fc3d"
+      "fontCharacter": "\\eaaa",
+      "fontId": "tabler-icons"
     },
     "layout-sidebar-right-off": {
-      "fontCharacter": "\\fc3e"
-    },
-    "layout-statusbar": {
-      "fontCharacter": "\\fc37"
+      "fontCharacter": "\\eaab",
+      "fontId": "tabler-icons"
     },
     "library": {
-      "fontCharacter": "\\eff2"
+      "fontCharacter": "\\ea25",
+      "fontId": "tabler-icons"
     },
     "lightbulb": {
-      "fontCharacter": "\\ea51"
+      "fontCharacter": "\\ea38",
+      "fontId": "tabler-icons"
     },
     "light-bulb": {
-      "fontCharacter": "\\ea51"
+      "fontCharacter": "\\ea38",
+      "fontId": "tabler-icons"
     },
     "lightbulb-autofix": {
-      "fontCharacter": "\\f66a"
+      "fontCharacter": "\\ea37",
+      "fontId": "tabler-icons"
     },
     "link": {
-      "fontCharacter": "\\eade"
+      "fontCharacter": "\\eab2",
+      "fontId": "tabler-icons"
     },
     "link-external": {
-      "fontCharacter": "\\ea99"
+      "fontCharacter": "\\ea70",
+      "fontId": "tabler-icons"
     },
     "list-filter": {
-      "fontCharacter": "\\eea9"
+      "fontCharacter": "\\eab5",
+      "fontId": "tabler-icons"
     },
     "list-flat": {
-      "fontCharacter": "\\eb6b"
+      "fontCharacter": "\\eab7",
+      "fontId": "tabler-icons"
     },
     "list-ordered": {
-      "fontCharacter": "\\ef11"
+      "fontCharacter": "\\eab4",
+      "fontId": "tabler-icons"
     },
     "list-selection": {
-      "fontCharacter": "\\ea08"
+      "fontCharacter": "\\ea07",
+      "fontId": "tabler-icons"
     },
     "list-tree": {
-      "fontCharacter": "\\fafa"
+      "fontCharacter": "\\eab6",
+      "fontId": "tabler-icons"
     },
     "list-unordered": {
-      "fontCharacter": "\\eb6b"
-    },
-    "loading": {
-      "fontCharacter": "\\eca3"
+      "fontCharacter": "\\eab7",
+      "fontId": "tabler-icons"
     },
     "location": {
-      "fontCharacter": "\\eae0"
+      "fontCharacter": "\\eabf",
+      "fontId": "tabler-icons"
     },
     "lock": {
-      "fontCharacter": "\\eae2"
+      "fontCharacter": "\\eab9",
+      "fontId": "tabler-icons"
     },
     "magnet": {
-      "fontCharacter": "\\eae3"
+      "fontCharacter": "\\eabc",
+      "fontId": "tabler-icons"
     },
     "mail": {
-      "fontCharacter": "\\eae5"
+      "fontCharacter": "\\eabe",
+      "fontId": "tabler-icons"
     },
     "mail-read": {
-      "fontCharacter": "\\eae4"
+      "fontCharacter": "\\eabd",
+      "fontId": "tabler-icons"
     },
     "map": {
-      "fontCharacter": "\\eae9"
+      "fontCharacter": "\\eac0",
+      "fontId": "tabler-icons"
     },
     "markdown": {
-      "fontCharacter": "\\ec41"
+      "fontCharacter": "\\eac1",
+      "fontId": "tabler-icons"
     },
     "megaphone": {
-      "fontCharacter": "\\ed61"
+      "fontCharacter": "\\eaf9",
+      "fontId": "tabler-icons"
     },
     "mention": {
-      "fontCharacter": "\\ea2b"
+      "fontCharacter": "\\ea1a",
+      "fontId": "tabler-icons"
     },
     "menu": {
-      "fontCharacter": "\\ec42"
+      "fontCharacter": "\\eac5",
+      "fontId": "tabler-icons"
     },
     "merge": {
-      "fontCharacter": "\\f04e"
+      "fontCharacter": "\\ea0e",
+      "fontId": "tabler-icons"
     },
     "milestone": {
-      "fontCharacter": "\\f06c"
+      "fontCharacter": "\\eaf6",
+      "fontId": "tabler-icons"
     },
     "more": {
-      "fontCharacter": "\\ea95"
+      "fontCharacter": "\\ea6d",
+      "fontId": "tabler-icons"
     },
     "mortar-board": {
-      "fontCharacter": "\\ecf7"
+      "fontCharacter": "\\eaec",
+      "fontId": "tabler-icons"
     },
     "move": {
-      "fontCharacter": "\\f22f"
+      "fontCharacter": "\\ea18",
+      "fontId": "tabler-icons"
     },
     "mute": {
-      "fontCharacter": "\\f1c3"
+      "fontCharacter": "\\eb13",
+      "fontId": "tabler-icons"
     },
     "new-file": {
-      "fontCharacter": "\\eaa0"
+      "fontCharacter": "\\ea77",
+      "fontId": "tabler-icons"
     },
     "new-folder": {
-      "fontCharacter": "\\eaab"
+      "fontCharacter": "\\ea87",
+      "fontId": "tabler-icons"
     },
     "note": {
-      "fontCharacter": "\\eb6d"
+      "fontCharacter": "\\eacb",
+      "fontId": "tabler-icons"
     },
     "notebook": {
-      "fontCharacter": "\\eb96"
+      "fontCharacter": "\\eacc",
+      "fontId": "tabler-icons"
     },
     "organization": {
-      "fontCharacter": "\\fa21"
+      "fontCharacter": "\\eb10",
+      "fontId": "tabler-icons"
     },
     "output": {
-      "fontCharacter": "\\eb6e"
+      "fontCharacter": "\\eacd",
+      "fontId": "tabler-icons"
     },
     "package": {
-      "fontCharacter": "\\eaff"
+      "fontCharacter": "\\eace",
+      "fontId": "tabler-icons"
     },
     "paintcan": {
-      "fontCharacter": "\\f56a"
+      "fontCharacter": "\\ea34",
+      "fontId": "tabler-icons"
     },
     "panel-close": {
-      "fontCharacter": "\\eb55"
+      "fontCharacter": "\\eb16",
+      "fontId": "tabler-icons"
     },
     "pass": {
-      "fontCharacter": "\\ea67"
+      "fontCharacter": "\\ea4c",
+      "fontId": "tabler-icons"
     },
     "pass-filled": {
-      "fontCharacter": "\\f704"
+      "fontCharacter": "\\ea4b",
+      "fontId": "tabler-icons"
     },
     "person": {
-      "fontCharacter": "\\eae6"
+      "fontCharacter": "\\eb0f",
+      "fontId": "tabler-icons"
     },
     "person-add": {
-      "fontCharacter": "\\eb4b"
+      "fontCharacter": "\\eb0e",
+      "fontId": "tabler-icons"
     },
     "pie-chart": {
-      "fontCharacter": "\\ea5d"
+      "fontCharacter": "\\ea3f",
+      "fontId": "tabler-icons"
     },
     "pin": {
-      "fontCharacter": "\\ec9c"
+      "fontCharacter": "\\ead2",
+      "fontId": "tabler-icons"
     },
     "pinned": {
-      "fontCharacter": "\\ed60"
+      "fontCharacter": "\\ead3",
+      "fontId": "tabler-icons"
     },
     "play": {
-      "fontCharacter": "\\ed46"
+      "fontCharacter": "\\ead4",
+      "fontId": "tabler-icons"
     },
     "plug": {
-      "fontCharacter": "\\ebd9"
+      "fontCharacter": "\\ead6",
+      "fontId": "tabler-icons"
     },
     "plus": {
-      "fontCharacter": "\\eb0b"
+      "fontCharacter": "\\ead7",
+      "fontId": "tabler-icons"
     },
     "ports-stop-forward-icon": {
-      "fontCharacter": "\\eb55"
+      "fontCharacter": "\\eb16",
+      "fontId": "tabler-icons"
     },
     "preserve-case": {
-      "fontCharacter": "\\eea4"
+      "fontCharacter": "\\eaae",
+      "fontId": "tabler-icons"
     },
     "primitive-square": {
-      "fontCharacter": "\\eb2c"
+      "fontCharacter": "\\eafa",
+      "fontId": "tabler-icons"
     },
     "project": {
-      "fontCharacter": "\\f539"
+      "fontCharacter": "\\ea06",
+      "fontId": "tabler-icons"
     },
     "pulse": {
-      "fontCharacter": "\\ed23"
+      "fontCharacter": "\\ea02",
+      "fontId": "tabler-icons"
     },
     "question": {
-      "fontCharacter": "\\eabf"
+      "fontCharacter": "\\ea98",
+      "fontId": "tabler-icons"
     },
     "quote": {
-      "fontCharacter": "\\efbe"
+      "fontCharacter": "\\eadb",
+      "fontId": "tabler-icons"
     },
     "radio-tower": {
-      "fontCharacter": "\\f4be"
-    },
-    "record": {
-      "fontCharacter": "\\efb1"
+      "fontCharacter": "\\ea36",
+      "fontId": "tabler-icons"
     },
     "record-keys": {
-      "fontCharacter": "\\ebd6"
+      "fontCharacter": "\\ea9f",
+      "fontId": "tabler-icons"
     },
     "redo": {
-      "fontCharacter": "\\eb78"
+      "fontCharacter": "\\ea0c",
+      "fontId": "tabler-icons"
     },
     "refresh": {
-      "fontCharacter": "\\eb13"
+      "fontCharacter": "\\eadf",
+      "fontId": "tabler-icons"
     },
     "regex": {
-      "fontCharacter": "\\f31f"
+      "fontCharacter": "\\eae0",
+      "fontId": "tabler-icons"
     },
     "remote": {
-      "fontCharacter": "\\f84e"
+      "fontCharacter": "\\ea55",
+      "fontId": "tabler-icons"
     },
     "remote-explorer": {
-      "fontCharacter": "\\f861"
+      "fontCharacter": "\\ea64",
+      "fontId": "tabler-icons"
     },
     "remove": {
-      "fontCharacter": "\\eaf2"
+      "fontCharacter": "\\eac9",
+      "fontId": "tabler-icons"
     },
     "replace": {
-      "fontCharacter": "\\ebc7"
+      "fontCharacter": "\\eae2",
+      "fontId": "tabler-icons"
     },
     "replace-all": {
-      "fontCharacter": "\\f69c"
+      "fontCharacter": "\\eae1",
+      "fontId": "tabler-icons"
     },
     "reply": {
-      "fontCharacter": "\\eb77"
+      "fontCharacter": "\\ea09",
+      "fontId": "tabler-icons"
     },
     "repo": {
-      "fontCharacter": "\\efc5"
+      "fontCharacter": "\\ea21",
+      "fontId": "tabler-icons"
     },
     "repo-clone": {
-      "fontCharacter": "\\f070"
+      "fontCharacter": "\\ea22",
+      "fontId": "tabler-icons"
     },
     "repo-forked": {
-      "fontCharacter": "\\eb8f"
-    },
-    "repo-push": {
-      "fontCharacter": "\\f071"
+      "fontCharacter": "\\ea8f",
+      "fontId": "tabler-icons"
     },
     "report": {
-      "fontCharacter": "\\eece"
+      "fontCharacter": "\\eae3",
+      "fontId": "tabler-icons"
     },
     "rocket": {
-      "fontCharacter": "\\ec45"
+      "fontCharacter": "\\eae5",
+      "fontId": "tabler-icons"
     },
     "rss": {
-      "fontCharacter": "\\eb19"
+      "fontCharacter": "\\eae9",
+      "fontId": "tabler-icons"
     },
     "save": {
-      "fontCharacter": "\\eb62"
+      "fontCharacter": "\\ea68",
+      "fontId": "tabler-icons"
     },
     "screen-full": {
-      "fontCharacter": "\\eaea"
+      "fontCharacter": "\\eac4",
+      "fontId": "tabler-icons"
     },
     "screen-normal": {
-      "fontCharacter": "\\eaf1"
+      "fontCharacter": "\\eac8",
+      "fontId": "tabler-icons"
     },
     "search": {
-      "fontCharacter": "\\eb1c"
+      "fontCharacter": "\\eaed",
+      "fontId": "tabler-icons"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\eaed",
+      "fontId": "tabler-icons"
     },
     "send": {
-      "fontCharacter": "\\eb1e"
+      "fontCharacter": "\\eaee",
+      "fontId": "tabler-icons"
     },
     "server": {
-      "fontCharacter": "\\eb1f"
+      "fontCharacter": "\\eaef",
+      "fontId": "tabler-icons"
     },
     "settings": {
-      "fontCharacter": "\\ea03"
+      "fontCharacter": "\\ea03",
+      "fontId": "tabler-icons"
     },
     "settings-gear": {
-      "fontCharacter": "\\eb20"
+      "fontCharacter": "\\eaf0",
+      "fontId": "tabler-icons"
     },
     "shield": {
-      "fontCharacter": "\\eb24"
+      "fontCharacter": "\\eaf4",
+      "fontId": "tabler-icons"
     },
     "sign-in": {
-      "fontCharacter": "\\eba7"
+      "fontCharacter": "\\eaba",
+      "fontId": "tabler-icons"
     },
     "sign-out": {
-      "fontCharacter": "\\eba8"
+      "fontCharacter": "\\eabb",
+      "fontId": "tabler-icons"
     },
     "smiley": {
-      "fontCharacter": "\\eaf7"
+      "fontCharacter": "\\eaca",
+      "fontId": "tabler-icons"
     },
     "source-control": {
-      "fontCharacter": "\\eab5"
+      "fontCharacter": "\\ea90",
+      "fontId": "tabler-icons"
     },
     "sparkle": {
-      "fontCharacter": "\\f6d7"
+      "fontCharacter": "\\eaf8",
+      "fontId": "tabler-icons"
     },
     "split-horizontal": {
-      "fontCharacter": "\\ead4"
+      "fontCharacter": "\\eaa7",
+      "fontId": "tabler-icons"
     },
     "split-vertical": {
-      "fontCharacter": "\\ead8"
+      "fontCharacter": "\\eaa8",
+      "fontId": "tabler-icons"
     },
     "star-empty": {
-      "fontCharacter": "\\eb2e"
+      "fontCharacter": "\\eafe",
+      "fontId": "tabler-icons"
     },
     "star-full": {
-      "fontCharacter": "\\f6a6"
+      "fontCharacter": "\\eafc",
+      "fontId": "tabler-icons"
     },
     "star-half": {
-      "fontCharacter": "\\f6a7"
+      "fontCharacter": "\\eafd",
+      "fontId": "tabler-icons"
     },
     "symbol-array": {
-      "fontCharacter": "\\ebcd"
+      "fontCharacter": "\\ea28",
+      "fontId": "tabler-icons"
     },
     "symbol-boolean": {
-      "fontCharacter": "\\fadd"
+      "fontCharacter": "\\ea0a",
+      "fontId": "tabler-icons"
     },
     "symbol-class": {
-      "fontCharacter": "\\f389"
+      "fontCharacter": "\\eaa6",
+      "fontId": "tabler-icons"
     },
     "symbol-color": {
-      "fontCharacter": "\\eb61"
+      "fontCharacter": "\\ea5a",
+      "fontId": "tabler-icons"
     },
     "symbol-constant": {
-      "fontCharacter": "\\f1e2"
+      "fontCharacter": "\\ea19",
+      "fontId": "tabler-icons"
     },
     "symbol-enum": {
-      "fontCharacter": "\\eac9"
+      "fontCharacter": "\\eaa1",
+      "fontId": "tabler-icons"
     },
     "symbol-enum-member": {
-      "fontCharacter": "\\eac9"
+      "fontCharacter": "\\eaa1",
+      "fontId": "tabler-icons"
     },
     "symbol-event": {
-      "fontCharacter": "\\ea38"
+      "fontCharacter": "\\ea20",
+      "fontId": "tabler-icons"
     },
     "symbol-field": {
-      "fontCharacter": "\\fab5"
+      "fontCharacter": "\\eadc",
+      "fontId": "tabler-icons"
     },
     "symbol-file": {
-      "fontCharacter": "\\eaa4"
+      "fontCharacter": "\\ea7b",
+      "fontId": "tabler-icons"
     },
     "symbol-interface": {
-      "fontCharacter": "\\f583"
+      "fontCharacter": "\\eaa0",
+      "fontId": "tabler-icons"
     },
     "symbol-key": {
-      "fontCharacter": "\\f567"
+      "fontCharacter": "\\ea01",
+      "fontId": "tabler-icons"
     },
     "symbol-keyword": {
-      "fontCharacter": "\\f535"
+      "fontCharacter": "\\ea05",
+      "fontId": "tabler-icons"
     },
     "symbol-method": {
-      "fontCharacter": "\\fa97"
+      "fontCharacter": "\\ea60",
+      "fontId": "tabler-icons"
     },
     "symbol-misc": {
-      "fontCharacter": "\\ece8"
+      "fontCharacter": "\\eb0d",
+      "fontId": "tabler-icons"
     },
     "symbol-namespace": {
-      "fontCharacter": "\\ebcc"
+      "fontCharacter": "\\ea27",
+      "fontId": "tabler-icons"
     },
     "symbol-numeric": {
-      "fontCharacter": "\\ebeb"
+      "fontCharacter": "\\eac3",
+      "fontId": "tabler-icons"
     },
     "symbol-operator": {
-      "fontCharacter": "\\eeb3"
+      "fontCharacter": "\\eac2",
+      "fontId": "tabler-icons"
     },
     "symbol-parameter": {
-      "fontCharacter": "\\f204"
+      "fontCharacter": "\\eb05",
+      "fontId": "tabler-icons"
     },
     "symbol-property": {
-      "fontCharacter": "\\eb40"
+      "fontCharacter": "\\eb0a",
+      "fontId": "tabler-icons"
     },
     "symbol-ruler": {
-      "fontCharacter": "\\f290"
+      "fontCharacter": "\\eaea",
+      "fontId": "tabler-icons"
     },
     "symbol-snippet": {
-      "fontCharacter": "\\f647"
+      "fontCharacter": "\\ea69",
+      "fontId": "tabler-icons"
     },
     "symbol-string": {
-      "fontCharacter": "\\f567"
+      "fontCharacter": "\\ea01",
+      "fontId": "tabler-icons"
     },
     "symbol-text": {
-      "fontCharacter": "\\f567"
+      "fontCharacter": "\\ea01",
+      "fontId": "tabler-icons"
     },
     "symbol-structure": {
-      "fontCharacter": "\\eacc"
+      "fontCharacter": "\\eaa2",
+      "fontId": "tabler-icons"
     },
     "symbol-struct": {
-      "fontCharacter": "\\eacc"
+      "fontCharacter": "\\eaa2",
+      "fontId": "tabler-icons"
     },
     "symbol-variable": {
-      "fontCharacter": "\\fab5"
+      "fontCharacter": "\\eadc",
+      "fontId": "tabler-icons"
     },
     "symbol-function": {
-      "fontCharacter": "\\fa97"
+      "fontCharacter": "\\ea60",
+      "fontId": "tabler-icons"
     },
     "sync": {
-      "fontCharacter": "\\eb13"
+      "fontCharacter": "\\eadf",
+      "fontId": "tabler-icons"
     },
     "sync-ignored": {
-      "fontCharacter": "\\f18d"
+      "fontCharacter": "\\eade",
+      "fontId": "tabler-icons"
     },
     "table": {
-      "fontCharacter": "\\eba1"
+      "fontCharacter": "\\eb00",
+      "fontId": "tabler-icons"
     },
     "tag": {
-      "fontCharacter": "\\eb34"
+      "fontCharacter": "\\eb01",
+      "fontId": "tabler-icons"
     },
     "target": {
-      "fontCharacter": "\\eb35"
+      "fontCharacter": "\\eb02",
+      "fontId": "tabler-icons"
     },
     "tasklist": {
-      "fontCharacter": "\\eb6a"
+      "fontCharacter": "\\eab3",
+      "fontId": "tabler-icons"
     },
     "telescope": {
-      "fontCharacter": "\\f07d"
+      "fontCharacter": "\\eb03",
+      "fontId": "tabler-icons"
     },
     "terminal": {
-      "fontCharacter": "\\ebdc"
+      "fontCharacter": "\\eb04",
+      "fontId": "tabler-icons"
     },
     "terminal-debian": {
-      "fontCharacter": "\\ef57"
+      "fontCharacter": "\\ea2a",
+      "fontId": "tabler-icons"
     },
     "terminal-powershell": {
-      "fontCharacter": "\\f5ed"
+      "fontCharacter": "\\ea2e",
+      "fontId": "tabler-icons"
     },
     "terminal-ubuntu": {
-      "fontCharacter": "\\ef59"
+      "fontCharacter": "\\ea30",
+      "fontId": "tabler-icons"
     },
     "text-size": {
-      "fontCharacter": "\\f2b1"
+      "fontCharacter": "\\eb06",
+      "fontId": "tabler-icons"
     },
     "three-bars": {
-      "fontCharacter": "\\f9f1"
+      "fontCharacter": "\\ea1b",
+      "fontId": "tabler-icons"
     },
     "thumbsdown": {
-      "fontCharacter": "\\eb3b"
+      "fontCharacter": "\\eb08",
+      "fontId": "tabler-icons"
     },
     "thumbsup": {
-      "fontCharacter": "\\eb3c"
+      "fontCharacter": "\\eb09",
+      "fontId": "tabler-icons"
     },
     "tools": {
-      "fontCharacter": "\\ebca"
+      "fontCharacter": "\\eb0b",
+      "fontId": "tabler-icons"
     },
     "toolbar-more": {
-      "fontCharacter": "\\ea95"
+      "fontCharacter": "\\ea6d",
+      "fontId": "tabler-icons"
     },
     "trash": {
-      "fontCharacter": "\\eb41"
+      "fontCharacter": "\\eb0c",
+      "fontId": "tabler-icons"
     },
     "trashcan": {
-      "fontCharacter": "\\eb41"
+      "fontCharacter": "\\eb0c",
+      "fontId": "tabler-icons"
     },
     "tree-item-expanded": {
-      "fontCharacter": "\\ea5f"
+      "fontCharacter": "\\ea43",
+      "fontId": "tabler-icons"
     },
     "triangle-down": {
-      "fontCharacter": "\\fb2a"
+      "fontCharacter": "\\ea3b",
+      "fontId": "tabler-icons"
     },
     "triangle-left": {
-      "fontCharacter": "\\fb2b"
+      "fontCharacter": "\\ea3c",
+      "fontId": "tabler-icons"
     },
     "triangle-right": {
-      "fontCharacter": "\\fb2c"
+      "fontCharacter": "\\ea3d",
+      "fontId": "tabler-icons"
     },
     "triangle-up": {
-      "fontCharacter": "\\fb2d"
+      "fontCharacter": "\\ea3e",
+      "fontId": "tabler-icons"
     },
     "twitter": {
-      "fontCharacter": "\\f7eb"
+      "fontCharacter": "\\ea2f",
+      "fontId": "tabler-icons"
     },
     "unlock": {
-      "fontCharacter": "\\eae1"
+      "fontCharacter": "\\eab8",
+      "fontId": "tabler-icons"
     },
     "unmute": {
-      "fontCharacter": "\\eb51"
+      "fontCharacter": "\\eb14",
+      "fontId": "tabler-icons"
+    },
+    "unverified": {
+      "fontCharacter": "\\eae7",
+      "fontId": "tabler-icons"
     },
     "verified": {
-      "fontCharacter": "\\f1f8"
+      "fontCharacter": "\\eae8",
+      "fontId": "tabler-icons"
     },
     "verified-filled": {
-      "fontCharacter": "\\f746"
+      "fontCharacter": "\\eae6",
+      "fontId": "tabler-icons"
     },
     "versions": {
-      "fontCharacter": "\\ed52"
+      "fontCharacter": "\\eb11",
+      "fontId": "tabler-icons"
     },
     "vm": {
-      "fontCharacter": "\\ea89"
+      "fontCharacter": "\\ea67",
+      "fontId": "tabler-icons"
     },
     "vm-active": {
-      "fontCharacter": "\\f860"
+      "fontCharacter": "\\ea63",
+      "fontId": "tabler-icons"
+    },
+    "vm-outline": {
+      "fontCharacter": "\\ea66",
+      "fontId": "tabler-icons"
     },
     "wand": {
-      "fontCharacter": "\\ebcb"
+      "fontCharacter": "\\eb15",
+      "fontId": "tabler-icons"
     },
     "warning": {
-      "fontCharacter": "\\ea06"
+      "fontCharacter": "\\ea04",
+      "fontId": "tabler-icons"
     },
     "watch": {
-      "fontCharacter": "\\ebf9"
+      "fontCharacter": "\\ea6b",
+      "fontId": "tabler-icons"
     },
     "whole-word": {
-      "fontCharacter": "\\ec0c"
+      "fontCharacter": "\\eaf7",
+      "fontId": "tabler-icons"
     },
     "widget-close": {
-      "fontCharacter": "\\eb55"
+      "fontCharacter": "\\eb16",
+      "fontId": "tabler-icons"
     },
     "word-wrap": {
-      "fontCharacter": "\\ebdd"
+      "fontCharacter": "\\eb07",
+      "fontId": "tabler-icons"
     },
     "workspace-trusted": {
-      "fontCharacter": "\\eb22"
+      "fontCharacter": "\\eaf1",
+      "fontId": "tabler-icons"
     },
     "workspace-unknown": {
-      "fontCharacter": "\\f9cc"
+      "fontCharacter": "\\eaf2",
+      "fontId": "tabler-icons"
     },
     "workspace-untrusted": {
-      "fontCharacter": "\\eb23"
+      "fontCharacter": "\\eaf3",
+      "fontId": "tabler-icons"
     },
     "zoom-in": {
-      "fontCharacter": "\\eb56"
+      "fontCharacter": "\\eb17",
+      "fontId": "tabler-icons"
     },
     "zoom-out": {
-      "fontCharacter": "\\eb57"
+      "fontCharacter": "\\eb18",
+      "fontId": "tabler-icons"
     }
   }
 }
