@@ -1,9 +1,10 @@
 {
-  "publisher": "zguolee",
+  "publisher": "nei1ee",
   "name": "tabler-icons",
+  "type": "module",
   "version": "0.3.7",
   "private": true,
-  "packageManager": "pnpm@8.6.0",
+  "packageManager": "pnpm@10.26.0",
   "engines": {
     "vscode": "*"
   },
@@ -23,21 +24,18 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
-    "@antfu/ni": "^0.21.9",
-    "@tabler/icons": "^2.46.0",
-    "@tabler/icons-webfont": "^3.19.0",
+    "@antfu/eslint-config": "^6.7.1",
+    "@tabler/icons": "^3.36.0",
     "@types/fs-extra": "^11.0.4",
-    "@types/node": "^20.9.0",
-    "@vscode/vsce": "^2.22.0",
-    "bumpp": "^9.2.0",
-    "eslint": "^8.53.0",
-    "esno": "^0.16.3",
-    "fs-extra": "^10.1.0",
-    "typescript": "^4.9.5",
-    "webfont": "^11.2.26"
-  },
-  "eslintConfig": {
-    "extends": "@antfu"
+    "@types/node": "^25.0.2",
+    "@vscode/codicons": "^0.0.44",
+    "@vscode/vsce": "^3.7.1",
+    "bumpp": "^10.3.2",
+    "eslint": "^9.39.2",
+    "esno": "^4.8.0",
+    "fs-extra": "^11.3.2",
+    "oslllo-svg-fixer": "^5.0.0",
+    "svgtofont": "^6.5.0",
+    "typescript": "^5.9.3"
   }
 }
