@@ -36,7 +36,7 @@ async function theme() {
     }
     let content = fs.readFileSync(svgPath, 'utf-8')
     content = content.replace('stroke-width="2"', `stroke-width="1.5"`)
-    if (name === 'point-filled') {
+    if (['point-filled', 'replace-filled'].includes(name)) {
       content = content.replace('<path stroke="none" d="M0 0h24v24H0z" fill="none"/>', '')
     }
     fs.writeFileSync(`temp/icons/${name}.svg`, content, 'utf-8')
