@@ -1,9 +1,13 @@
 {
-  "publisher": "nei1ee",
+  "publisher": "zguolee",
   "name": "tabler-icons",
   "displayName": "Tabler Product Icons",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Tabler Product Icons for VS Code",
+  "author": {
+    "name": "Neil Lee"
+  },
+  "license": "MIT",
   "icon": "icon.png",
   "categories": [
     "Themes"
@@ -11,7 +15,6 @@
   "engines": {
     "vscode": "*"
   },
-  "license": "MIT",
   "keywords": [
     "icon",
     "theme",
@@ -21,6 +24,10 @@
   "extensionKind": [
     "ui"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nei1ee/vscode-tabler-icons.git"
+  },
   "contributes": {
     "productIconThemes": [
       {
@@ -30,14 +37,7 @@
       }
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nei1ee/vscode-tabler-icons.git"
-  },
   "bugs": {
     "url": "https://github.com/nei1ee/vscode-tabler-icons/issues"
-  },
-  "author": {
-    "name": "Neil Lee"
   }
 }
