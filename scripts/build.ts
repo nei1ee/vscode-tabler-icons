@@ -102,7 +102,7 @@ async function theme() {
   fs.writeJSONSync(
     'theme/package.json',
     {
-      publisher: 'nei1ee',
+      publisher: 'zguolee',
       name: NAME,
       displayName: `${DISPLAY_NAME} Product Icons`,
       version: pkg.version,
