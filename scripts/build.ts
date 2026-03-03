@@ -24,6 +24,10 @@ async function theme() {
 
   const icons = new Set<string>()
 
+  console.log('Processing icons...')
+
+  console.log(`Total icons: ${Object.keys(set.icons).length}`)
+
   for (const [_, v] of Object.entries(set.icons)) {
     const [, name] = v.split(':')
     if (icons.has(name)) {
@@ -36,11 +40,13 @@ async function theme() {
     }
     let content = fs.readFileSync(svgPath, 'utf-8')
     content = content.replace('stroke-width="2"', `stroke-width="1.5"`)
-    if (['point-filled', 'replace-filled'].includes(name)) {
+    if (name.endsWith('-filled')) {
       content = content.replace('<path stroke="none" d="M0 0h24v24H0z" fill="none"/>', '')
     }
     fs.writeFileSync(`temp/icons/${name}.svg`, content, 'utf-8')
   }
+
+  console.log('Unique icons vs Generated icons:', Array.from(new Set(Object.values(set.icons))).length, icons.size)
 
   await SVGFixer('temp/icons', `temp/icons`, { showProgressBar: true, throwIfDestinationDoesNotExist: false }).fix()
   await svgtofont({
